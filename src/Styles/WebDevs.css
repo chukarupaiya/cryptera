@@ -1,0 +1,118 @@
+.webdevs {
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.webdevs::-webkit-scrollbar {
+    display: block !important;
+}
+.webdevs::-webkit-scrollbar-thumb {
+    background:green !important;
+    border-radius: 10px;
+    display: block !important;
+}
+.webdevs-container{
+    text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+}
+.webdevs-title{
+    font-size:44px;
+    color:#05ffa3;
+    font-weight: 700;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:13px;
+    margin-top: 120px;
+}
+.web-card{
+    background-color:rgba(26, 25, 25, 0.3);
+    width:300px;
+    height:250px;
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 90px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.web-card:hover{
+    transform: scale(1.05);
+    transition:0.1s ease-in;
+}
+
+.web-card-image{
+    width:80px;
+    height:80px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left:0%;
+    right:0%;
+    margin-right: auto;
+    margin-left: auto;
+    top:-40px
+}
+.web-card-image >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.web-card-content{
+    text-align: center;
+    margin-top: 40px;
+    height: 100%;
+    position: relative;
+}
+.web-card-content>.name{
+    font-size: 20px;
+    color:#05ffa3;
+    font-weight: 600;
+}
+.web-card-content>.description{
+    font-size: 14px;
+    color: var(--fg-white);
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: var(--font-secondary);
+}
+.media-container{
+    color:var(--fg-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    border-top: 2px solid  #05ffa3;
+    margin-top: 0px;
+    padding: 18px;
+    font-size: 18px;
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+}
+
+
+.media-container>a>i{
+    cursor: pointer;
+}
+.media-container>a>i:hover{
+    color: var(--fg-green);
+}
+@media only screen and (max-width: 900px) {
+    .webdevs-container{
+        text-align: center;
+        padding: 20px;
+        margin-top: 15%;
+    }
+}
+
+

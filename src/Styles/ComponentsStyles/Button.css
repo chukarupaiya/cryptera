@@ -1,0 +1,46 @@
+.button {
+    border: none;
+    display: inline-block;
+    border-radius: 99px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    padding: 7px 35px;
+    font-weight: 700;
+    width: 300px;
+   
+  }
+  
+  .button:before,
+  .button:after {
+    content: " ";
+    position: absolute;
+    border-radius: 99px;
+  }
+  
+  .button:before {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(36, 180, 126, 1) 0%,
+      rgba(19, 195, 185, 1) 81%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  
+  .button:after {
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    background-color: var(--bg-black);
+    z-index: -1;
+    opacity: 1;
+    transition: all 0.6s ease-in-out;
+  }

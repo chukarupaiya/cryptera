@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: gilroy;
+  src: url("Assets/Fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: gilroy-thin;
+  src: url("Assets/Fonts/Gilroy-Light.otf") format("opentype");
+}
+
+:root{
+  --bg-black:#1b1c22;
+  --bg-black1:#22272A;
+  --fg-green:#24B47E;
+  --fg-white:#FFFFFF;
+  --font-primary:gilroy;
+  --font-secondary:gilroy-thin;
+  --fg-g:#24B47E
+}
+
+body,html{
+  padding: 0%;
+  margin: 0%;
+  background-color: var(--bg-black);
+  color:var(--fg-white);
+  font-family:var(--font-primary);
+}
+::-webkit-scrollbar{
+  width: 5px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb{
+  background:rgb(2, 128, 79);
+  border-radius: 20px;
+  display: none;
+}
+::selection {
+  color: var(--fg-white);
+  background: var(--fg-green);
+}

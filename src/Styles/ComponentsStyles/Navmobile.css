@@ -1,0 +1,81 @@
+.nav-mobile {
+    height: 60px;
+    background-color: #1B1C22;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+
+}
+
+.logo-x {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgba(181, 189, 183, 0.75)
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #1B1C22;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    transition: 0.5s linear;
+    top: 60px;
+    overflow-x: hidden;
+}
+
+.activeo {
+    width: 250px;
+}
+
+.close-btn {
+    z-index: 800;
+}
+.linkx{
+    position: relative;
+    display:none;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: rgba(246, 248, 246, 0.8);
+}
+.navbar-linkx{
+    font-size: 18px;
+}
+.navbar-linkx>i{
+    margin: 10px;
+}
+.close-btn-x{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--fg-black);
+    color: rgba(246, 248, 246, 0.8);
+}
+.hint{
+    position: absolute;
+    left:10px;
+    top: 890px;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--fg-white);
+    color: rgba(246, 248, 246, 0.8);
+}
+.social-linksx{
+    margin: 40px;
+    display: none;
+}
+.social-linksx>i{
+    margin: 10px;
+}

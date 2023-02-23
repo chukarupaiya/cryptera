@@ -106,8 +106,8 @@ function Events() {
     }
     return (
         <div className="events" onWheel={scrollhandler} >
-            <div className='add-green-vertical right-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenrightref} />
-            <div className='add-green-vertical left-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenleftref} />
+            {/* <div className='add-green-vertical right-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenrightref} />
+            <div className='add-green-vertical left-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenleftref} /> */}
 
 
             <div className='events-header'>

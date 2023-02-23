@@ -80,12 +80,13 @@
 
 .events-body {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
-    margin-top: 9%;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    width: 80vw;
+    margin: auto;
+    margin-top: 4%;
+    width: 100%; 
+   
 }
 
 .events-body::-webkit-scrollbar {
@@ -95,7 +96,7 @@
 .event-card {
 
     min-width: 300px;
-    width: 300px;
+    width: 320px;
     height: 300px;
     background-color: rgba(38, 38, 43, 0.6);
     border-radius: 5px;

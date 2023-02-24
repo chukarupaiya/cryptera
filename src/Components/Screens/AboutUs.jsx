@@ -155,7 +155,6 @@ function AboutUs() {
         <Staffcard image={"https://www.cit.edu.in/wp-content/uploads/2015/10/AK-Sep-18-Image.jpg"} name="Dr.A.Kunthavai" position={"Senior tutor"} />
         <Staffcard image={"https://www.cit.edu.in/wp-content/uploads/2015/10/185.jpg"} name="Dr.K.Amshakala" position={"Tutor"} />
         <Staffcard image={"https://www.cit.edu.in/wp-content/uploads/2015/10/446.jpg"} name="Dr. A.Priyadharshini" position={"Tutor"} />
-        <Staffcard image={"https://www.cit.edu.in/wp-content/uploads/2015/10/1251.jpg"} name="Mr.M.Maranco" position={"Tutor"} />
        
       
       </div>

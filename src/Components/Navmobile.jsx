@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react'
 import '../Styles/ComponentsStyles/Navmobile.css'
-import Logo from '../Assets/logo.png'
+import Logo from '../Assets/logo_final.png'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 function Navmobile() {
     const sidenavref = useRef()

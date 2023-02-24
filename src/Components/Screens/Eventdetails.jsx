@@ -14,11 +14,11 @@ function Eventdetails() {
   const contactref = useRef(null);
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("event_details"));
-    console.log("data is ", data);
+    //console.log("data is ", data);
     console.warn(event_name_from_path);
 
     const temp = data.filter((event) => event.name === event_name_from_path)[0];
-    console.log("your content is", temp);
+   // console.log("your content is", temp);
     setTimeout(() => {
       contactref.current.innerHTML = `
             <a href="tel:+91 ${temp.contact}">
@@ -142,7 +142,7 @@ function Eventdetails() {
               <div className="faq">
                 {Event_data.faq &&
                   Event_data.faq.map((faq, index) => {
-                    console.log("faq is ", faq);
+                   // console.log("faq is ", faq);
                     return <Faq key={index} data={faq} />;
                   })}
               </div>

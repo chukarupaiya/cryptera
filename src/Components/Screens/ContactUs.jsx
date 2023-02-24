@@ -27,7 +27,7 @@ function ContactUs() {
                 replied:false
             });
           
-            console.log("Document written with ID: ", docRef.id);
+           // console.log("Document written with ID: ", docRef.id);
             alert("Success")
             
           } catch (e) {

@@ -16,16 +16,16 @@ function Events() {
     useEffect(() => {
         const data = JSON.parse(localStorage.getItem("event_details"))
         seteventdata(data)
-        console.log(data)
+        // console.log(data)
     }, [])
 
     let h = 0
     let i = 0
     const scrollhandler = (event) => {
 
-        console.log(bodyref.current.scrollLeft,
-            bodyref.current.scrollWidth,
-            bodyref.current.offsetWidth)
+        // console.log(bodyref.current.scrollLeft,
+        //     bodyref.current.scrollWidth,
+        //     bodyref.current.offsetWidth)
         bodyref.current.scrollLeft += event.deltaY
         if (event.deltaY < 0) {
             h = 0
@@ -56,7 +56,7 @@ function Events() {
             greenleftref.current.style.width = "0px"
             if (bodyref.current.offsetWidth + bodyref.current.scrollLeft >= bodyref.current.scrollWidth - 10) {
                 h += 3
-                console.log(h)
+                // console.log(h)
                 greenrightref.current.style.width = h + 'px'
                 if (h > 60) {
                     greenrightref.current.style.width = '0px'

@@ -13,7 +13,7 @@ function Queries() {
                 query.replied=true
             }
         })
-        console.log(temp)
+        // console.log(temp)
         setData(temp)
     }
     useEffect(async () => {
@@ -28,10 +28,10 @@ function Queries() {
                 queries.push(temp)
             })
             setData(queries)
-            console.log(data)
+            // console.log(data)
         }
         getdata()
-        console.log("hot")
+        // console.log("hot")
     }, [])
     return (
         <div style={{ margin: "30px", marginTop: "90px" }}>

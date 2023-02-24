@@ -23,8 +23,8 @@ function Home() {
 
     }
     const wheelhandler = (event) => {
-        console.log('wheel')
-        console.log(event.deltaY)
+        // console.log('wheel')
+        // console.log(event.deltaY)
         if (event.deltaY < 0) {
             h = 0
             greenref.current.style.height = "0px"
@@ -32,7 +32,7 @@ function Home() {
         else {
             if (Homeref.current.offsetHeight + Homeref.current.scrollTop >= Homeref.current.scrollHeight) {
                 h += 3
-                console.log(h)
+                // console.log(h)
                 greenref.current.style.height = h + 'px'
                 if (h > 60) {
                     greenref.current.style.height = '0px'

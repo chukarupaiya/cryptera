@@ -4,7 +4,7 @@ import profile1 from '../../Assets/1905098.png'
 import { useNavigate } from 'react-router-dom'
 import web_devs_data from '../../Data/web_devs_data'
 function WebDevs() {
-    console.log(web_devs_data)
+    // console.log(web_devs_data)
     const navigate = useNavigate()
     const greenTopref = useRef(null)
     const greenBottomref = useRef(null)
@@ -12,16 +12,16 @@ function WebDevs() {
     let h = 10
     let i = 10
     const wheelhandler = (event) => {
-        console.log('wheel')
-        console.log(event.deltaY)
+        // console.log('wheel')
+        // console.log(event.deltaY)
         if (event.deltaY < 0) {
             h = 0
             greenBottomref.current.style.height = "0px"
-            console.log(
-                contentref.current.offsetHeight,
-                contentref.current.scrollTop,
-                contentref.current.scrollHeight
-            )
+            // console.log(
+            //     contentref.current.offsetHeight,
+            //     contentref.current.scrollTop,
+            //     contentref.current.scrollHeight
+            // )
             if (contentref.current.scrollTop == 0) {
                 i += 3
                 greenTopref.current.style.height = `${i}px`
@@ -36,7 +36,7 @@ function WebDevs() {
             i = 0
             if (contentref.current.offsetHeight + contentref.current.scrollTop >= contentref.current.scrollHeight) {
                 h += 3
-                console.log(h)
+                // console.log(h)
                 greenBottomref.current.style.height = h + 'px'
                 if (h > 60) {
                     greenBottomref.current.style.height = '0px'

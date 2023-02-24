@@ -12,16 +12,16 @@ function Commitee() {
   let i = 10;
 
   const wheelhandler = (event) => {
-    console.log("wheel");
-    console.log(event.deltaY);
+    // console.log("wheel");
+    // console.log(event.deltaY);
     if (event.deltaY < 0) {
       h = 0;
       greenBottomref.current.style.height = "0px";
-      console.log(
-        contentref.current.offsetHeight,
-        contentref.current.scrollTop,
-        contentref.current.scrollHeight
-      );
+      // console.log(
+      //   contentref.current.offsetHeight,
+      //   contentref.current.scrollTop,
+      //   contentref.current.scrollHeight
+      // );
       if (contentref.current.scrollTop == 0) {
         i += 3;
         greenTopref.current.style.height = `${i}px`;
@@ -38,7 +38,7 @@ function Commitee() {
         contentref.current.scrollHeight
       ) {
         h += 3;
-        console.log(h);
+        // console.log(h);
         greenBottomref.current.style.height = h + "px";
         if (h > 60) {
           greenBottomref.current.style.height = "0px";
@@ -82,7 +82,7 @@ function Commitee() {
 export default Commitee;
 
 const Commiteemember = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   if (data) {
     return (
       <div className="content-container-item">

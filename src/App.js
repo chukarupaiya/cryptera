@@ -40,7 +40,7 @@ function App() {
   useEffect(async () => {
     const getdata = async () => {
       let event_details=events
-      console.log(event_details)
+      // console.log(event_details)
       localStorage.setItem("event_details", JSON.stringify(event_details))
    
     }

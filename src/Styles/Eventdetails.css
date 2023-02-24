@@ -188,7 +188,6 @@
 }
 .e-description-m>ul>li{
     color: var(--fg-white);
-    line-height: 27px;
     margin-bottom: 10px;
     font-weight: 700;
 }

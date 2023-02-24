@@ -48,7 +48,7 @@ function Home() {
             onMouseOver={cursorhandler} style={{ position: "relative" }}
         >
             <div className='mobile-container'>
-                <a href='tel:+91 8870499146'>
+                <a href='tel:+91 9962623236'>
                     <i className='fa fa-phone'></i>
                 </a>
             </div>

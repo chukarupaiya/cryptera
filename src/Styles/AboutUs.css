@@ -315,10 +315,14 @@
     align-self: center;
   }
   .highlighter {
-    color: var(--fg-green);
+    
   }
   .about-us {
     margin-top: 100px;
     padding: 10px;
+  }
+
+  .quote{
+    font-size: 16px;
   }
 }

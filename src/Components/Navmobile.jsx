@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react'
 import '../Styles/ComponentsStyles/Navmobile.css'
-import Logo from '../Assets/logo.png'
+import Logo from '../Assets/logo_final.png'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 function Navmobile() {
     const sidenavref = useRef()
@@ -152,7 +152,7 @@ function Navmobile() {
                     </div>
                     <div>
                         <div className="social-linksx" ref={sociallinksref}>
-                            <a href='https://www.instagram.com/cryptera_2k22/' style={{ padding: "10px" }}>
+                            <a href='https://instagram.com/cryptera_2k23?igshid=ZDdkNTZiNTM=' style={{ padding: "10px" }}>
                                 <i class="fab fa-instagram"></i>
                             </a>
 

@@ -31,7 +31,7 @@ function Main({ movetohomepage }) {
         h += 3;
         console.log(h);
         greenref.current.style.height = h + "px";
-        if (h > 60) {
+        if (h > 100) {
           greenref.current.style.height = "0px";
           movetohomepage();
         }

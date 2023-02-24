@@ -12,11 +12,13 @@
     "@mui/lab": "^5.0.0-alpha.73",
     "@mui/material": "^5.5.1",
     "firebase": "^9.6.3",
+    "install": "^0.13.0",
     "parallax-js": "^3.1.0",
     "react": "^17.0.2",
     "react-animated-cursor": "^2.2.0",
     "react-chrono": "^1.13.1",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.7.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0"
   },

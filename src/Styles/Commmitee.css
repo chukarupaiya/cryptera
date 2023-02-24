@@ -59,9 +59,10 @@
 
 
 .commitee{
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: 40%;
     margin: auto;
     margin-bottom: 0px;
     padding-right: 5%;
+    margin-top: 20px;
 }

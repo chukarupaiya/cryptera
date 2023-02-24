@@ -280,7 +280,7 @@ export default [
     description:
       "Freefire room card will be created and the room name and password will be shared before the match start and the match will be conducted in squad mode. The match will be conducted in Bermuda map. The winning squad will be awarded.",
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
-    type: "non_technical",
+    type: "flagship",
     faq: [],
     speakers: [],
     tags: [],
@@ -387,7 +387,7 @@ export default [
     description:
       "Rise to the challenge and take on the competition in a high-stakes battle for supremacy. The ultimate test of skill and strategy awaits in the epic Valorant tournament.",
     form: "https://forms.gle/z7reWTPgrbLptSc38",
-    type: "non_technical",
+    type: "flagship",
     faq: [],
     speakers: [],
     tags: [],
@@ -1000,7 +1000,7 @@ color: 'var(--fg-g)',
 carddescription: "A Jeopardy-style CTF",
 description: `A Jeopardy-style CTF`,
 form: "https://forms.gle/2fdCX8oDYd5oWbBC9",
-type: "technical",
+type: "flagship",
 faq: [
     {
         question: "Will it happen online or offline?",
@@ -1341,7 +1341,7 @@ tags: [
     carddescription: "Are you ready to showcase your ideas on the big stage?",
     description: `Are you ready to showcase your ideas on the big stage? Join us to get an exclusive platform to bring out your unique ideas and insights into cutting edge topics in the field of tech. Oh wait, these ideas should be original by the way !`,
     form: "https://forms.gle/XQ1rYXZcbLWVaRBW8",
-    type: "technical",
+    type: "flagship",
     faq: [
         {
             question: "Will it happen online or offline?",

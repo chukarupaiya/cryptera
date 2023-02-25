@@ -68,11 +68,20 @@
 }
 @media only screen and (max-width: 800px) {
     .event_name{
-        font-weight: 400 !important;
-        font-size: 16px !important;
+        font-weight: 900 !important;
+        font-size: 18px !important;
     }
     .event-date{
+        font-size: 12px !important;
+    }
 
+    .rocket{
+        display: none;
+    }
+    
+    .astronaut{
+        display: none;
+        
     }
 }
 

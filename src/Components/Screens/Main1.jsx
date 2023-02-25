@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
-import Image1 from "./assets/layer6.png";
-import Image2 from "./assets/layer5.png";
+import Image1 from "./assets/layer6.webp";
+import Image2 from "./assets/layer5.webp";
 import Image3 from "./assets/layer7.png";
 import Image4 from "./assets/layer8.webp";
-import Image5 from "./assets/layer9.png";
-import Image6 from "./assets/layer11.png";
+import Image5 from "./assets/layer9.webp";
+import Image6 from "./assets/layer11.webp";
 import "../../App.css";
 import Parallax from "parallax-js";
 function Main({ movetohomepage }) {

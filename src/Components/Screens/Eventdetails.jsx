@@ -22,7 +22,7 @@ function Eventdetails() {
     setTimeout(() => {
       contactref.current.innerHTML = `
             <a href="tel:+91 ${temp.contact}">
-    <i class="fas fa-phone-alt"></i>
+    <i class="fas fa-phone"></i>
     </a>
             `;
     }, 100);
@@ -243,11 +243,11 @@ function Eventdetails() {
                   {Event_data.rules &&
                     Event_data.rules.map((rule, index) => {
                       return (
-                        <div style={{ display: "flex", marginTop: "10px" }}>
+                        <div style={{ display: "flex", marginTop: "10px" ,alignItems:"center"}}>
                           <div>
                             <IoSend
                               style={{
-                                marginRight: "5px",
+                                marginRight: "15px",
                                 color: "#05ffa3",
                                 fontSize: "26px !important",
                                 height: "100% !important",
@@ -273,30 +273,32 @@ function Eventdetails() {
                 <div className="e-description-m cen">
                   {Event_data.prizes["gold"] ? (
                     <div className="trophies">
-                      <div className="silver-trophy">
-                        <i class="fa fa-trophy"></i>
-                        <div>
-                          <div>Second place</div>
-                          <i className="fas fa-rupee-sign"></i>
-                          {Event_data.prizes["silver"]}
-                        </div>
-                      </div>
                       <div className="gold-trophy">
                         <i class="fa fa-trophy"></i>
                         <div>
-                          <div>First place</div>
+                          <div>Winners</div>
                           <i className="fas fa-rupee-sign"></i>
                           {Event_data.prizes["gold"]}
                         </div>
                       </div>
-                      <div className="bronze-trophy">
+                      
+                      {Event_data.prizes["silver"]!=undefined && (<div className="silver-trophy">
+                        <i class="fa fa-trophy"></i>
+                        <div>
+                          <div>Runners</div>
+                          <i className="fas fa-rupee-sign"></i>
+                          {Event_data.prizes["silver"]}
+                        </div>
+                      </div>)}
+                      
+                      {/* <div className="bronze-trophy">
                         <i class="fa fa-trophy"></i>
                         <div>
                           <div>Third place</div>
                           <i className="fas fa-rupee-sign"></i>
                           {Event_data.prizes["bronze"]}
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   ) : (
                     <div>{Event_data.prizes}</div>

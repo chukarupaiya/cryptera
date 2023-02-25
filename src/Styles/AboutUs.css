@@ -325,4 +325,8 @@
   .quote{
     font-size: 16px;
   }
+
+  .robot{
+    display: none;
+  }
 }

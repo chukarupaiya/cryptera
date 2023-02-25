@@ -1,7 +1,7 @@
 export default [
   {
     id: "1",
-    name: "PTuneupvocalmusic",
+    name: "Tune_up",
     title: "Tune up vocal",
     eligibility: "Anyone can join",
     completed: false,
@@ -30,9 +30,7 @@ export default [
     carddescription: "Join our singing and music competition and showcase your talent to the world",
     dateTime: "10th march - 11th march",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "200",
     },
     event_managers: [
       {
@@ -66,12 +64,14 @@ export default [
   },
   {
     id: "2",
-    name: "Moviequiz",
+    name: "Movie_quiz",
     title: "Movie quiz",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
+      "Winners also receive Merchandise",
+
       "Welcome to the Movie quiz!  with totally two rounds.",
 
       "A team can have maximum of three members.",
@@ -97,9 +97,7 @@ export default [
     contact: "93444 53867",
     dateTime: "11th march 3.00 pm",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "300",
     },
     event_managers: [
       {
@@ -155,9 +153,8 @@ export default [
     dateTime: "Mar 11th, 10.00am",
     duration: "",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "1000",
+      silver: "500",
     },
     contact: "8778799141",
     color: "var(--fg-g)",
@@ -205,9 +202,8 @@ export default [
     dateTime: "Mar 10th, 11.00am",
     duration: "",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "1000",
+      silver: "500",
     },
     contact: "8056968577",
     color: "var(--fg-g)",
@@ -261,9 +257,8 @@ export default [
     contact: "6383456084",
     dateTime: "10th march,7.00 pm",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "1000",
+      silver: "500",
     },
     event_managers: [
       {
@@ -276,7 +271,7 @@ export default [
       },
     ],
     color: "var(--fg-g)",
-    carddescription: "free fire mobile",
+    carddescription: "Lets begin the Hunting on mobile",
     description:
       "Freefire room card will be created and the room name and password will be shared before the match start and the match will be conducted in squad mode. The match will be conducted in Bermuda map. The winning squad will be awarded.",
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
@@ -314,9 +309,7 @@ export default [
     contact: "7449277448",
     dateTime: "11th march ,4.00 pm",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "500",
     },
     event_managers: [
       {
@@ -368,9 +361,8 @@ export default [
     contact: "8778799141",
     dateTime: "10th march,8.00 pm",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "2250",
+      silver: "1250",
     },
     event_managers: [
       {
@@ -421,9 +413,7 @@ export default [
     contact: "9894162098",
     dateTime: "6th march",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "200",
     },
     event_managers: [
       {
@@ -487,9 +477,7 @@ export default [
     contact: "6382015599",
     dateTime: "10th march - 11th march",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "200",
     },
     event_managers: [
       {
@@ -555,9 +543,7 @@ export default [
     contact: "6384300744",
     dateTime: "10th march - 11th march",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "200",
     },
     event_managers: [
       {
@@ -594,12 +580,14 @@ export default [
   },
   {
     id: "11",
-    name: "MarvelDCQuiz",
+    name: "MarvelDC_Quiz",
     title: "Marvel/DC Quiz",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
+      "Merchandise will be given for Winners",
+
       "This event comes under the non-technical event category and it will be conducted in offline mode.",
 
       "The questions will be based on the cinematic and comic of both MARVEL and DC Universes.",
@@ -629,9 +617,7 @@ export default [
     contact: "9677214638",
     dateTime: "10th march ,12:00 pm",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "300",
     },
     event_managers: [
       {
@@ -691,9 +677,8 @@ export default [
     contact: "9677379380",
     dateTime: "10th march ,5:00 pm",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "650",
+      silver: "350",
     },
     event_managers: [
       {
@@ -748,9 +733,7 @@ export default [
     contact: "9789676878",
     dateTime: "10th march - 11th march",
     prizes: {
-      gold: "0",
-      silver: "0",
-      bronze: "0",
+      gold: "500",
     },
     event_managers: [
       {
@@ -796,7 +779,7 @@ export default [
   /////////////////////////////
   {
     id: '1',
-    name: "TechFeud",
+    name: "Tech_Feud",
     title: "Tech Feud",
     eligibility: "Anyone can join",
     completed: false,
@@ -804,6 +787,10 @@ export default [
     rules: [
         "E-certificate will be given",
         "Certificate will be given for the registered candidates",
+        "Team should have exactly 2 members",
+        "Every team should be on time",
+        "Top two teams will be issued prizes",
+        "Shortlisted teams from each round will be eligible for next round.",
         `(Duration:30 minutes)
          Round1: TECH QUIZ
             Quiz consist of 30 questions.
@@ -832,10 +819,6 @@ export default [
             5.Answers with a higher priority are awarded more.
         Each battle is knockout stage."
     `,
-    "Team should have exactly 2 members",
-    "Every team should be on time",
-    "Top two teams will be issued prizes",
-    "Shortlisted teams from each round will be eligible for next round."
     ],
     pics: {
         primary: "https://www.billboard.com/wp-content/uploads/2022/07/salt-n-pepa-celebrity-family-feud-2022-billboard-1548.png",
@@ -843,8 +826,11 @@ export default [
     },
     dateTime: "Mar 11th, 2023 4.30pm",
     duration:  "",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1500",
+      silver: "1000",
+    },
+    contact:  "6382723288",
     speakers: null,
     event_managers: [
         {
@@ -906,8 +892,11 @@ export default [
     },
     dateTime: "Mar 10th, 2023 12.45pm",
     duration:  "",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1000",
+      silver: "500",
+    },
+    contact:  "6383297188",
     speakers: null,
     event_managers: [
         {
@@ -957,7 +946,7 @@ export default [
 
 {        
 id: '3',
-name: "CaptureTheFlag",
+name: "CTF",
 title: "Capture The Flag",
 eligibility: "Anyone can join",
 completed: false,
@@ -982,8 +971,11 @@ pics: {
 },
 dateTime: "Mar 10th, 2023 08.30 am",
 duration:  "",
-prizes: "0",
-contact:  "9962623236",
+prizes: {
+  gold: "3000",
+  silver: "2000",
+},
+contact:  "9442523172",
 speakers: null,
 event_managers: [
     {
@@ -1030,7 +1022,7 @@ tags: [
 
 {        
 id: '4',
-name: "Jumbledcode",
+name: "Jumbled_code",
 title: "Jumbled code",
 eligibility: "Anyone can join",
 completed: false,
@@ -1052,8 +1044,11 @@ pics: {
 },
 dateTime: "Mar 11th, 2023 01.00 pm",
 duration:  "",
-prizes: "0",
-contact:  "9962623236",
+prizes: {
+  gold: "1000",
+  silver: "500",
+},
+contact:  "9994511832",
 speakers: null,
 event_managers: [
     {
@@ -1120,7 +1115,7 @@ tags: [
 },
 {
     id: '5',
-    name: "SnapQuest",
+    name: "Snap_Quest",
     title: "SnapQuest",
     eligibility: "Anyone can join",
     completed: false,
@@ -1137,8 +1132,10 @@ tags: [
     },
     dateTime:"",
     duration: "",
-    prizes: "0",
-    contact: "9962623236",
+    prizes: {
+      gold: "200",
+    },
+    contact: "7010757365",
     event_managers:  [
                 {
                     id: '1',
@@ -1179,8 +1176,11 @@ pics: {
 },
 dateTime: "Mar 11th, 2023 12.00 pm",
 duration:  "",
-prizes: "0",
-contact:  "9962623236",
+prizes: {
+  gold: "1000",
+  silver: "500",
+},
+contact:  "9488807702",
 speakers: null,
 event_managers: [
     {
@@ -1246,8 +1246,11 @@ tags: [
     },
     dateTime: "Mar 10th, 2023 03.30 pm",
     duration:  "",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1000",
+      silver: "500",
+    },
+    contact:  "9150067211",
     speakers: null,
     event_managers: [
         {
@@ -1301,7 +1304,7 @@ tags: [
 
 {        
     id: '8',
-    name: "PaperPresentation",
+    name: "Paper_Presentation",
     title: "Paper Presentation",
     eligibility: "Anyone can join",
     completed: false,
@@ -1324,8 +1327,11 @@ tags: [
     },
     dateTime: "Mar 11th, 2023 09.30 am",
     duration:  "",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1500",
+      silver: "1000",
+    },
+    contact:  "9344140391",
     speakers: null,
     event_managers: [
         {
@@ -1374,7 +1380,7 @@ tags: [
 
 {        
     id: '9',
-    name: "PcBuilding",
+    name: "PC_Building",
     title: "PC Building",
     eligibility: "Anyone can join",
     completed: false,
@@ -1394,8 +1400,11 @@ tags: [
     },
     dateTime: "Mar 11th, 2023 11.00 am",
     duration:  "",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1500",
+      silver: "1000",
+    },
+    contact:  "9488807702",
     speakers: null,
     event_managers: [
         {
@@ -1440,7 +1449,7 @@ tags: [
 
 {        
     id: '10',
-    name: "CrypteraCodingContest",
+    name: "Cryptera_Coding_Contest",
     title: "Cryptera Coding Contest",
     eligibility: "Anyone can join",
     completed: false,
@@ -1456,8 +1465,11 @@ tags: [
     },
     dateTime: "Mar 10th, 2023 10.45 am",
     duration:  "",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1500",
+      silver: "1000",
+    },
+    contact:  "9789676878",
     speakers: null,
     event_managers: [
         {
@@ -1576,12 +1588,13 @@ tags: [
 
 {
     id: '12',
-    name: "AttackOnAnime",
+    name: "Attack_on_Anime",
     title: "Attack on Anime",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
+        "Merchandise will be given for the winners",
         "This event comes under the category of general events : Non -Technical Events",
         "Anyone can participate individually.",
         "Event is conducted in offline mode",
@@ -1599,8 +1612,10 @@ tags: [
     },
     dateTime:"Mar 10th, 2023 12.00 pm",
     duration: "",
-    prizes: "0",
-    contact: "9962623236",
+    prizes: {
+      gold: "300",
+    },
+    contact: "9150186456",
     event_managers:  [
                 {
                     id: '1',
@@ -1648,7 +1663,7 @@ tags: [
 
 {        
     id: '13',
-    name: "PromptEngineering",
+    name: "Prompt_Engineering",
     title: "Prompt Engineering",
     eligibility: "Anyone can join",
     completed: false,
@@ -1668,8 +1683,11 @@ tags: [
     },
     dateTime: "Mar 11th, 2023 03.30 pm",
     duration:  "45 mins",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1000",
+      silver: "500",
+    },
+    contact:  "8681849991",
     speakers: null,
     event_managers: [
         {
@@ -1710,7 +1728,7 @@ tags: [
 
 {        
     id: '14',
-    name: "ReverseCoding",
+    name: "Reverse_Coding",
     title: "Reverse Coding",
     eligibility: "Anyone can join",
     completed: false,
@@ -1732,8 +1750,11 @@ tags: [
     },
     dateTime: "Mar 11th, 2023 11.30 am",
     duration:  "",
-    prizes: "0",
-    contact:  "9962623236",
+    prizes: {
+      gold: "1250",
+      silver: "750",
+    },
+    contact:  "9003297493",
     speakers: null,
     event_managers: [
         {

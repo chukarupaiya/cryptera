@@ -23,16 +23,17 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
 
-const firebaseApp = initializeApp({
-  apiKey: "AIzaSyBI03_RbgSxXpR9ViE5sVGQjFHwek8SvKw",
-  authDomain: "cryptera-1342c.firebaseapp.com",
-  projectId: "cryptera-1342c",
-  storageBucket: "cryptera-1342c.appspot.com",
-  messagingSenderId: "1067324221114",
-  appId: "1:1067324221114:web:aa73a717d1ac5ec7bbc483",
-});
+const firebaseConfig = {
+  apiKey: "AIzaSyCjDtQ-hsyXk876DZLyyeC6UpXMFFjF5EY",
+  authDomain: "cryptera.firebaseapp.com",
+  projectId: "cryptera",
+  storageBucket: "cryptera.appspot.com",
+  messagingSenderId: "797621842156",
+  appId: "1:797621842156:web:d19c64d6002d3bb0b635c9"
+};
+const app = initializeApp(firebaseConfig);
 
-const db = getFirestore()
+const db = getFirestore(app)
 export {db}
 
 function App() {

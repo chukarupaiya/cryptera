@@ -131,6 +131,7 @@ function Navmobile() {
         else {
             clearActive()
         }
+        closenav();
     }, [location])
     return (
         <>

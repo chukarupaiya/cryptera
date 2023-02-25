@@ -181,7 +181,7 @@
 .gold-trophy{
     
     transform: scale(1.5);
-    transform:translateY(-40px);
+    transform:translateY(0px);
 }
 .bronze-trophy>i{
     color: #cd7f32;

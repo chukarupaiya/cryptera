@@ -31,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: var(--font-secondary);
+    
 }
 .down-icon{
     cursor: pointer;
@@ -92,11 +93,13 @@
     border: none;
     outline: none;
     border-bottom: 3px solid var(--fg-green);
-    background-color: var(--bg-black);
+    background-color: rgb(53, 53, 53);
     padding-left: 5px;
     font-weight: 700;
     color:var(--fg-white);
     height: 60px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 .txt-content{
     margin-top: 20px;

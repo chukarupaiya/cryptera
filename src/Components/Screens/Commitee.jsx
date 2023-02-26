@@ -87,7 +87,7 @@ const Commiteemember = ({ data }) => {
     return (
       <div className="content-container-item">
         <div className="content-container-item-image">
-          <img src={data.profile} alt="profile" loading="lazy" />
+          <img src={data.profile} alt="profile" loading="lazy" style={{"width":"100px"}}/>
         </div>
         <div className="content-container-item-description">
           <div className="commitee-name-x">

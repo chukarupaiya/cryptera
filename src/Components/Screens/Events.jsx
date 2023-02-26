@@ -2,6 +2,8 @@ import React, { useRef, useState, useEffect } from 'react'
 import Eventcard from '../Eventcard'
 import '../../Styles/Events.css'
 import { useNavigate } from 'react-router-dom'
+import {TbReportMoney} from 'react-icons/tb';
+
 function Events() {
    // console.log()
     const navigate = useNavigate()
@@ -109,15 +111,21 @@ function Events() {
             {/* <div className='add-green-vertical right-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenrightref} />
             <div className='add-green-vertical left-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenleftref} /> */}
 
+            
+
 
             <div className='events-header'>
                 <h1 ref={technicalref} onClick={technicalclick} className='activex'>Technical </h1>
                 <h1 ref={nontechnicalref} onClick={nontechnicalclick} >Non-Technical</h1>
                 <h1 ref={flagshipref} onClick={flagshipclick}>Flagship</h1>
             </div>
+            
 
             <div className='events-body' ref={bodyref} >
-                
+            <div style={{"display":"flex","width":"100%","justifyContent":"left",alignItems:"center"}}>
+                <TbReportMoney style={{fontSize: "30px"}}></TbReportMoney>
+                <p style={{fontWeight:"500",color:"#05ffa3"}}>&ensp;Events included in general event fee</p>
+            </div>
                 {
                     event_data.map((data, index) => {
                         console.error(data.type)

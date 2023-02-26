@@ -47,7 +47,7 @@
     transform: rotate(180deg);
 }
 .mobile-containe{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color:white;
 }
@@ -131,8 +131,9 @@
 }
 .mobile-container{    
     position: absolute;
-    top: 50px;
+    top: 60px;
     right: 50px;
+    
 }
 @media only screen and (max-width: 900px) {
     .support-container{

@@ -53,7 +53,7 @@ function AboutUs() {
     }
   };
   return (
-    <div className="about-us" onWheel={wheelhandler} ref={contentref} >
+    <div className="about-us" onWheel={wheelhandler} ref={contentref}>
       <div className="lottie-player">
         <lottie-player
           autoplay
@@ -79,7 +79,7 @@ function AboutUs() {
         <b style={{ color: "#be57ff" }}>CRYPTERA</b> is a National-level
         technical intercollegiate symposium conducted by Computer Science and
         Engineering department of Coimbatore Institute of Technology. CRYPTERA
-        is a series of events both technical and non-technical along with
+        is a series of technical and non-technical events in addition to
         webinars and workshops for students to participate.
       </div>
 
@@ -150,14 +150,33 @@ function AboutUs() {
         Our Sincere thanks to
       </div>
       <div className="container5 ">
-        <Staffcard image={require("../../Assets/Staffs/principal.jpg")} name="Dr.A.Rajeswari" position={"Principal"} />
-        <Staffcard image={require("../../Assets/Staffs/hod.jpg")} name="Dr.G.Kousalya" position={"HOD"} />
-        <Staffcard image={"https://www.cit.edu.in/wp-content/uploads/2015/10/AK-Sep-18-Image.jpg"} name="Dr.A.Kunthavai" position={"Senior tutor"} />
-        <Staffcard image={"https://www.cit.edu.in/wp-content/uploads/2015/10/185.jpg"} name="Dr.K.Amshakala" position={"Tutor"} />
-        <Staffcard image={"https://www.cit.edu.in/wp-content/uploads/2015/10/446.jpg"} name="Dr. A.Priyadharshini" position={"Tutor"} />
-        
-       
-      
+        <Staffcard
+          image={require("../../Assets/Staffs/principal.jpg")}
+          name="Dr.A.Rajeswari"
+          position={"Principal"}
+        />
+        <Staffcard
+          image={require("../../Assets/Staffs/hod.jpg")}
+          name="Dr.G.Kousalya"
+          position={"HOD"}
+        />
+        <Staffcard
+          image={
+            "https://www.cit.edu.in/wp-content/uploads/2015/10/AK-Sep-18-Image.jpg"
+          }
+          name="Dr.A.Kunthavai"
+          position={"Senior tutor"}
+        />
+        <Staffcard
+          image={"https://www.cit.edu.in/wp-content/uploads/2015/10/185.jpg"}
+          name="Dr.K.Amshakala"
+          position={"Tutor"}
+        />
+        <Staffcard
+          image={"https://www.cit.edu.in/wp-content/uploads/2015/10/446.jpg"}
+          name="Dr. A.Priyadharshini"
+          position={"Tutor"}
+        />
       </div>
       <div className="py-20"></div>
     </div>

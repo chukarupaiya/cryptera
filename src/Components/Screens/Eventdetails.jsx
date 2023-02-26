@@ -12,13 +12,18 @@ function Eventdetails() {
   const pathname = useLocation().pathname;
   const event_name_from_path = pathname.split("/")[2];
   const contactref = useRef(null);
+  const linkxref = useRef(null);
+  const sociallinksref = useRef(null);
+  const sidenavref = useRef();
+  const [open, setopen] = useState(false);
+
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("event_details"));
     //console.log("data is ", data);
     console.warn(event_name_from_path);
 
     const temp = data.filter((event) => event.name === event_name_from_path)[0];
-   // console.log("your content is", temp);
+    // console.log("your content is", temp);
     setTimeout(() => {
       contactref.current.innerHTML = `
             <a href="tel:+91 ${temp.contact}">
@@ -142,7 +147,7 @@ function Eventdetails() {
               <div className="faq">
                 {Event_data.faq &&
                   Event_data.faq.map((faq, index) => {
-                   // console.log("faq is ", faq);
+                    // console.log("faq is ", faq);
                     return <Faq key={index} data={faq} />;
                   })}
               </div>
@@ -243,7 +248,13 @@ function Eventdetails() {
                   {Event_data.rules &&
                     Event_data.rules.map((rule, index) => {
                       return (
-                        <div style={{ display: "flex", marginTop: "10px" ,alignItems:"center"}}>
+                        <div
+                          style={{
+                            display: "flex",
+                            marginTop: "10px",
+                            alignItems: "center",
+                          }}
+                        >
                           <div>
                             <IoSend
                               style={{
@@ -251,7 +262,6 @@ function Eventdetails() {
                                 color: "#05ffa3",
                                 fontSize: "26px !important",
                                 height: "100% !important",
-                                
                               }}
                             ></IoSend>
                           </div>
@@ -276,21 +286,23 @@ function Eventdetails() {
                       <div className="gold-trophy">
                         <i class="fa fa-trophy"></i>
                         <div>
-                          <div>Winners</div>
+                          <div>Winner</div>
                           <i className="fas fa-rupee-sign"></i>
                           {Event_data.prizes["gold"]}
                         </div>
                       </div>
-                      
-                      {Event_data.prizes["silver"]!=undefined && (<div className="silver-trophy">
-                        <i class="fa fa-trophy"></i>
-                        <div>
-                          <div>Runners</div>
-                          <i className="fas fa-rupee-sign"></i>
-                          {Event_data.prizes["silver"]}
+
+                      {Event_data.prizes["silver"] != undefined && (
+                        <div className="silver-trophy">
+                          <i class="fa fa-trophy"></i>
+                          <div>
+                            <div>Runner</div>
+                            <i className="fas fa-rupee-sign"></i>
+                            {Event_data.prizes["silver"]}
+                          </div>
                         </div>
-                      </div>)}
-                      
+                      )}
+
                       {/* <div className="bronze-trophy">
                         <i class="fa fa-trophy"></i>
                         <div>
@@ -319,15 +331,27 @@ function Eventdetails() {
                     })}
                 </div>
 
-                <div className="final-btn">
-                  <a href={Event_data.form} target="_blank">
+                {Event_data.form == "" && (
+                  <div className="final-btn">
                     <div className="submit-btn-event">
                       <div>
-                        {Event_data.s ? <>Open contest</> : <>Register Now</>}
+                        {Event_data.s ? <>Open contest</> : <>Comming soon</>}
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                )}
+
+                {Event_data.form != "" && (
+                  <div className="final-btn">
+                    <a href={Event_data.form} target="_blank">
+                      <div className="submit-btn-event">
+                        <div>
+                          {Event_data.s ? <>Open contest</> : <>Register Now</>}
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>

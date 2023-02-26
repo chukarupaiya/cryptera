@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Cryptera",
+  "name": "National level Technical Symposium conducted by CSE department of CIT",
   "icons": [
     {
-      "src": "/src/Assets/logo_final.png",
+      "src": "./logo_final.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/src/Assets/logo_final.png",
+      "src": "./logo_final.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/src/Assets/logo_final.png",
+      "src": "./logo_final.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }

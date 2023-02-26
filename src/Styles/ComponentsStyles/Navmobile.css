@@ -18,7 +18,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    color: rgba(181, 189, 183, 0.75)
+    color: rgba(181, 189, 183, 0.75);
+    z-index: 5000;
 }
 
 .sidenav {
@@ -26,7 +27,7 @@
     background-color: #1B1C22;
     width: 0;
     position: fixed;
-    z-index: 3000;
+    z-index: 5000;
     transition: 0.5s linear;
     top: 60px;
     overflow: hidden;
@@ -50,6 +51,9 @@
 }
 .navbar-linkx{
     font-size: 18px;
+    overflow: hidden;
+    width: fit-content;
+    height: 40px;
 }
 .navbar-linkx>i{
     margin: 10px;
@@ -75,6 +79,9 @@
 .social-linksx{
     margin: 40px;
     display: none;
+    overflow: hidden;
+    width: fit-content;
+    height: 20px;
 }
 .social-linksx>i{
     margin: 10px;

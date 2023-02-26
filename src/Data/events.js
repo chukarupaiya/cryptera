@@ -1,8 +1,153 @@
+import chess from '../Components/Screens/assets/chess.jpg'
+
 export default [
+  {        
+    id: '8',
+    name: "Paper_Presentation",
+    title: "Paper Presentation",
+    eligibility: "Anyone can join",
+    completed: false,
+    results: null,
+    rules: [
+        "Participation can either be an individual participant or as a team of maximum 4.",
+        "Oral presentation for the conference has been allocated 10 minutes of effective presentation time and 2-3 minutes given to Q/A session. Time  limit must not be exceeded.",
+        "Abstract should not exceed more than 300 words. Paper should not exceed more than 20 pages.",
+        `Paper should be in IEEE format. Avoid using animations and videos in the ppt.`,
+        `All the documents must use Times New Roman format.`,
+        `Soft copies of the paper must be submitted in the .doc/.pdf format.`,
+        "The submitted papers will be screened and selected candidates will be asked to complete their registration by paying the event fee",
+        
+    ],
+    pics: {
+        primary: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_505595136_20001333200092800_406810.jpg",
+        secondary: []
+    },
+    dateTime: "March 10, 11",
+    duration:  "",
+    prizes: {
+      gold: "1500",
+      silver: "1000",
+    },
+    contact:  "9344140391",
+    speakers: null,
+    event_managers: [
+        {
+            id: '1',
+            name: "Siddharth",
+            email: "20cs11@cit.edu.in",
+            phone: "+91 9344140391",
+            role: "Event Manager",
+            year: "3rd year CSE",
+        }
+    ],
+    color: 'var(--fg-g)',
+    carddescription: "Are you ready to showcase your ideas on the big stage?",
+    description: `Are you ready to showcase your ideas on the big stage? Join us to get an exclusive platform to bring out your unique ideas and insights into cutting edge topics in the field of tech. Oh wait, these ideas should be original by the way !`,
+    form: "https://forms.gle/XQ1rYXZcbLWVaRBW8",
+    type: "flagship",
+    faq: [
+        {
+            question: "Will it happen online or offline?",
+            answer: "Offline",
+        },
+        {
+            question: "Can I get certificate?",
+            answer: "Yes, certificate will be provided",
+        },
+        {
+            question: "Should I bring my own laptop?",
+            answer: "No, it isn't necessary since we will provide all necessary devices. ",
+
+        },
+        {
+            question: "What is the maximum team size?",
+            answer: "The maximum team size is 4.",
+
+        },  
+        {
+            question: "What are the topics I can present on ?",
+            answer: "Participants can choose any topic of your choice related to the fields we've mentioned. Check out the registration form for the list of fields. ",
+
+        },      
+    ],
+    tags: [
+        "presentation"
+    ]
+},
+
+{        
+  id: '3',
+  name: "CTF",
+  title: "Capture The Flag",
+  eligibility: "Anyone can join",
+  completed: false,
+  results: null,
+  rules: [
+      "The competition runs from ... IST — ... IST ( 6 hours)",
+      "In order to claim prizes, problem writeups are required.",
+      "Time will act as a tie-breaker between teams with the same number of points.",
+      "Flags format is CRYPCTF{flag+here}, unless otherwise specified.",
+      "You can't play on two teams at once. Team size limit is 5 per team.",
+      "Being caught cheating during a game is grounds for an instant disqualification.",
+      "Organizers reserve rights to make decisions which are final.",
+      "Let's all have fun and play together!"
+  ],
+  pics: {
+      primary: "https://www.simplilearn.com/ice9/free_resources_article_thumb/top_5_valuable_ethical_hacking_tools.jpg",
+      secondary: []
+  },
+  dateTime: "March 10, 6.00 pm",
+  duration:  "",
+  prizes: {
+    gold: "3000",
+    silver: "2000",
+  },
+  contact:  "9442523172",
+  speakers: null,
+  event_managers: [
+      {
+          id: '1',
+          name: "M Gowtham",
+          email: "20cs14@cit.edu.in",
+          phone: "+91 9442523172",
+          role: "Event Manager",
+          year: "3rd year CSE",
+  
+      }
+  ],
+  color: 'var(--fg-g)',
+  carddescription: "A Jeopardy-style CTF",
+  description: `A Jeopardy-style CTF`,
+  form: "https://forms.gle/2fdCX8oDYd5oWbBC9",
+  type: "flagship",
+  faq: [
+      {
+          question: "Will it happen online or offline?",
+          answer: "Online",
+      },
+      {
+          question: "What type of CTF event is this",
+          answer: "Its a jeopardy style event.",
+  
+      },
+      {
+          question: "Is there is a team size limit",
+          answer: "Yes. Maximum team size is 5.",
+  
+      }
+  
+  ],
+  tags: [
+       "Problem Solving", "C", "C++", "Python"
+  ]
+  },
+  
+  
+
   {
     id: "1",
     name: "Tune_up",
-    title: "Tune up vocal",
+    title: "Tune up",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
@@ -28,7 +173,7 @@ export default [
     },
     contact: "9652146680",
     carddescription: "Join our singing and music competition and showcase your talent to the world",
-    dateTime: "10th march - 11th march",
+    dateTime: "Until March 9",
     prizes: {
       gold: "200",
     },
@@ -70,17 +215,11 @@ export default [
     completed: false,
     results: null,
     rules: [
-      "Winners also receive Merchandise",
-
-      "Welcome to the Movie quiz!  with totally two rounds.",
-
+      
       "A team can have maximum of three members.",
 
-      "The question will cover the wide range of movie genres",
+      "Make sure you have a kahoot account. If not create one",
 
-      "The first round is the elimination round and will be conducted via pen and paper so kindly bring your pen.",
-
-      "Elimination is done according to the points you score.More The Points More You Play.",
 
       "The second round is the final round conducted through images and audio.",
     ],
@@ -94,8 +233,8 @@ export default [
         "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       ],
     },
-    contact: "93444 53867",
-    dateTime: "11th march 3.00 pm",
+    contact: "9344453867",
+    dateTime: "March 11, 4.00 pm",
     prizes: {
       gold: "300",
     },
@@ -104,7 +243,7 @@ export default [
         id: "1",
         name: "Vysakh",
         email: "20cs50@cit.edu.in",
-        phone: "93444 53867",
+        phone: "9344453867",
         role: "Event Manager",
         year: "3rd year CSE",
       },
@@ -112,7 +251,7 @@ export default [
     carddescription: "Test your knowledge of cinema Kollywood and compete with your fellow movie buffs",
     color: "var(--fg-g)",
     description:
-      "Welcome to the Movie Quiz! This event is a fun-filled opportunity to test your knowledge of cinema Kollywood and compete with your fellow movie buffs. The quiz will consist of several rounds, each with a different theme or focus. The questions will cover a wide range of movie genres, including classic films, modern blockbusters, and everything in between. As the quiz progresses, the questions will become increasingly challenging, so be sure to keep your wits about you and stay focused. You'll need to think fast and answer quickly to stay ahead of the competition.",
+      "Welcome to the Movie Quiz! This event is a fun-filled opportunity to test your knowledge of cinema Kollywood and compete with your fellow movie buffs.",
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
     type: "non_technical",
     faq: [],
@@ -121,23 +260,20 @@ export default [
   },
   {
     id: "3",
-    name: "0xDebug",
-    title: "0xDebug",
+    name: "0xdebug",
+    title: "0xdebug",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "This event comes under the category of general events : Technical Events",
-      "The programming language given will be C ,C++ , Python and Java",
-      "A total of 2 rounds will be conducted :",
-      "Round 1 : code snippets with multiple choice questions.",
-      "Round 2 : code snippets to debug in the above languages.",
+      "The programming language given will be C ,C++, Python and Java.",
+      "A total of 2 rounds will be conducted.",
+      "Round 1 : Code snippets with multiple choice questions.",
+      "Round 2 : Code snippets to debug in the above languages.",
       "Marks for each questions will be provided based on the difficulty and there will not be any -ve markings ",
       "Any kind of plagiarism will lead to immediate disqualification.",
       "Internet and personal computer will be provided and be free to bring you own laptops to this event.",
-      "Use of mobile phones or other unapproved electronic media except laptop will not be permitted.",
       "Use of compilers and debugging tools is prohibited.",
-      "Complete the event before the time exhausts.",
       "Winner will be decided based on the number of questions answered and time of submission.",
     ],
     pics: {
@@ -150,7 +286,7 @@ export default [
         "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       ],
     },
-    dateTime: "Mar 11th, 10.00am",
+    dateTime: "March 11, 3.00 pm",
     duration: "",
     prizes: {
       gold: "1000",
@@ -158,7 +294,7 @@ export default [
     },
     contact: "8778799141",
     color: "var(--fg-g)",
-    carddescription: "debug the given code",
+    carddescription: "Are you the next Sherlock? Unleash your coding prowess and solve the mystery",
     description: `Think you have what it takes to be a debugging pro? Join our code event and put your skills to the test. With bugs and glitches to fix, it's time to show off your skills and emerge as the ultimate debugging champion!`,
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
     type: "technical",
@@ -174,19 +310,18 @@ export default [
         year: "3rd year CSE",
       },
     ],
-    tags: ["python", "Java", "C++", "C", "coding"],
+    tags: ["Python", "Java", "C++", "C", "Coding"],
   },
   {
     id: "4",
-    name: "Css_Battle",
-    title: "Css Battle",
+    name: "CSS_Battle",
+    title: "CSS Battle",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "This event comes under the category of general events : Technical Events",
-      "No of rounds will be based on the no of participants.",
-      "You will be given a simple picture and you just need to recreate the image using HTML,CSS within stipulated time.",
+      "You will be given a simple picture and you just need to recreate the image using HTML and CSS within stipulated time.",
+      "Number of rounds will be based on the number of participants.",
       "Personal computer will be provided and be free to bring your own laptops to this event.",
     ],
     pics: {
@@ -199,7 +334,7 @@ export default [
         "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       ],
     },
-    dateTime: "Mar 10th, 11.00am",
+    dateTime: "March 10, 9.00am",
     duration: "",
     prizes: {
       gold: "1000",
@@ -207,20 +342,20 @@ export default [
     },
     contact: "8056968577",
     color: "var(--fg-g)",
-    carddescription: "Clash Of the Cascading Style Sheets",
-    description: `Clash Of the Cascading Style Sheets`,
+    carddescription: "Unleash your creativity and compete to be the CSS champion in a battle of styles!",
+    description: "Compete to create the most visually stunning CSS design in a head-to-head coding battle!",
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
     type: "technical",
     faq: [
       {
-        question: "1.What are the languages need to be used?",
-        answer: " HTML CSS",
+        question: "What are the languages need to be used?",
+        answer: " HTML and CSS",
       },
     ],
     event_managers: [
       {
         id: "1",
-        name: "Dharanish P M",
+        name: "Dharanish PM",
         email: "20cs07@cit.edu.in",
         phone: "+91 8056968577",
         role: "Event Manager",
@@ -231,18 +366,19 @@ export default [
   },
   {
     id: "5",
-    name: "Freefire_Battlegrounds",
-    title: "Freefire Battlegrounds",
+    name: "Freefire",
+    title: "Freefire",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "Battle royale",
-      "character skill yes",
-      "limited ammo yes",
-      "fall damage yes",
-      "only Bermuda map",
-      "no revival system",
+      "Freefire room will be created and the room's name and password will be shared before the match start.",
+      "Game mode : Battle Royale",
+      "Character Skill : Yes",
+      "Limited Ammo : Yes",
+      "Fall Damage : Yes",
+      "Map : Bermuda Map",
+      "Revival System : No",
     ],
     pics: {
       primary:
@@ -255,7 +391,7 @@ export default [
       ],
     },
     contact: "6383456084",
-    dateTime: "10th march,7.00 pm",
+    dateTime: "March 10, 7.00 pm",
     prizes: {
       gold: "1000",
       silver: "500",
@@ -271,10 +407,60 @@ export default [
       },
     ],
     color: "var(--fg-g)",
-    carddescription: "Lets begin the Hunting on mobile",
-    description:
-      "Freefire room card will be created and the room name and password will be shared before the match start and the match will be conducted in squad mode. The match will be conducted in Bermuda map. The winning squad will be awarded.",
-    form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
+    carddescription: "Get ready to battle it out and be the last one standing in the ultimate Free Fire showdown!",
+    description: "Join the hottest battleground with Free Fire! Experience heart-pumping action and be the last one standing.",
+    form: "",
+    type: "flagship",
+    faq: [],
+    speakers: [],
+    tags: [],
+  },
+  {
+    id: "5",
+    name: "Hackathon",
+    title: "Hackathon",
+    eligibility: "Anyone can join",
+    completed: false,
+    results: null,
+    rules: [
+      "A team should consist of 4 members",
+      "the theme will be released on 3th March",
+      "the teams should submit the topic on 5th March",
+      "The final solution must be demonstrated through presentation and implementation of the project",
+      "Planel members decision is final",
+      "Simulation can be done through any software",
+      "Students should upload their PPT and other necessary files on 11th march 12pm"
+    ],
+    pics: {
+      primary:
+        "https://images.squarespace-cdn.com/content/v1/5e6542d2ae16460bb741a9eb/1603318636443-A846ACUKNYUBA0RPLJ94/marvin-meyer-SYTO3xs06fU-unsplash.jpg",
+      secondary: [
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      ],
+    },
+    contact: "9629957549",
+    dateTime: "March 11, 2.00 pm",
+    prizes: {
+      gold: "1000",
+      silver: "500",
+    },
+    event_managers: [
+      {
+        id: "1",
+        name: "karupaiya",
+        email: "chukarupaiya@gmail.com",
+        phone: "9629957549",
+        role: "Event Manager",
+        year: "3rd year CSE",
+      },
+    ],
+    color: "var(--fg-g)",
+    carddescription: "You must do the thing you think you cannot do",
+    description: "Hackathon is a national-level 48-hour long intensive, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
+    form: "",
     type: "flagship",
     faq: [],
     speakers: [],
@@ -282,19 +468,18 @@ export default [
   },
   {
     id: "6",
-    name: "Poster_Designing",
-    title: "Poster Designing",
+    name: "Poster_Design",
+    title: "Poster Design",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "Be creative, Be original",
-      "Theme-open",
-      "Solo participation",
-      "Timings: 1hr",
-      "Any Photo Editing tools can be used",
-      "Participants should bring their laptops with the necessary software installed",
-      "Posters need to be designed on the venue",
+      "Solo Participation",
+      "Theme : Open theme",
+      "Timings : 1hr",
+      "Any Photo Editing tools can be used.",
+      "Participants should bring their laptops with the necessary software installed.",
+      "Posters need to be designed on the venue.",
     ],
     pics: {
       primary:
@@ -307,7 +492,7 @@ export default [
       ],
     },
     contact: "7449277448",
-    dateTime: "11th march ,4.00 pm",
+    dateTime: "March 11, 11.00 am",
     prizes: {
       gold: "500",
     },
@@ -322,9 +507,9 @@ export default [
       },
     ],
     color: "var(--fg-g)",
-    carddescription: "Whitespace is like air; it is necessary for design to breathe",
+    carddescription: "Create, inspire, and win: the ultimate poster design challenge awaits!",
     description:
-      "Whitespace is like air; it is necessary for design to breathe. Share your appreciation on any field through your creativity by making a poster.",
+      "Calling all designers: showcase your talent and creativity for a chance to win big in our poster design contest!",
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
     type: "non_technical",
     faq: [],
@@ -333,20 +518,14 @@ export default [
   },
   {
     id: "7",
-    name: "Valorant_2k23",
-    title: "Valorant 2k23",
+    name: "Valorant",
+    title: "Valorant",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "The Valorant Tournament is an open Tournament, hosted by Cryptera and played on PC. The Tournament is limited to players who can play on Mumbai servers. Every Participant must",
-      "have a valid main Riot Account",
-      "have their own pc or laptop",
-      "have a good internet connection By participating in the Valorant Tournament, Participants acknowledge they will, without limitation, comply with the Tournament Rules and with the statements and decisions made by the Administration. Every Participant acknowledges the right for the Administration to modify the rules and regulations for adjustments at any time without notice and if necessary overrule those to ensure fair play and integrity throughout the Tournament. Every Participant must be respectful towards Admins and other Participants. Insults and unfair or disrespectful behaviour will not be tolerated and will be punished in accordance with these rules. Every Team Captain can join the Discord server to communicate with Admins for the Tournament. The link to the Discord server will be provided to participants before the start of the Tournament. Every Participant has to try to win every round of the Tournament. Purposefully losing for any reason is strictly forbidden. Vulgar, racist, sexist or otherwise offensive player names are forbidden. This will be at the sole discretion of the Tournament Admins. Every Participant acknowledges the right for the Administration to edit players’ names if names are deemed unfit for display. Every Participant in the Valorant Community Tournament consents to the collection of footage, photo and audio material displaying or voicing them during the Tournament to be stored and used for announcements, website content and other publications by Fnatic unrestricted and unlimited in terms of time and place.",
-      "Format Team size: 5+2 ( 5 Main players, 2 Substitutes )",
-      "It will be a knockout tournament till the semi-finals. The semis and finals will be the best of three. Moderators will be spectating the match, and any inconvenience should be brought to the moderators. Teams will go through a toss to choose the map and for deciding the attacker and the defender. The moderator of the match will conduct the toss. The winner of the toss gets the chance to ban the first map and the other team gets the next chance to ban another map. This will go on until one map is left, which will automatically be the map being played. The loser of the toss gets to choose either defending or attacking. Rules Players are expected to use a single account for each player. Each team must consist of 5 players and 2 substitute players.( 5 Players are mandatory. Substitutes are optional.) Substitutes can be included only at the beginning of a new match. The moderator has to be informed about the substitutes included. Players must be available at least 15 minutes in the lobby before the match is scheduled to begin. Failure of the entire team to show up on time will lead to forfeiture of the match. The team captain needs to add all their members and the coordinator (whose details will be subsequently revealed) as their friends with their RIOT IDs. The captains will be responsible for adding their team players into the game lobby. Add your teammates in your friend-list well ahead of the match. Cheating in any form (including exploiting bugs) will not be tolerated and will lead to the disqualifying of the entire team from the event. Team captains must send a screenshot of the final scorecard to the coordinator at the end of the match, for future reference. Only the base (vanilla) version of the game is to be used (i.e., no mods of any sort).",
-      "In case of any changes in the schedule of matches, team captains will be informed. The coordinator will let the team leader know regarding match fixtures, tournament schedules and other updates regarding further stages of the tournamen",
-      "If the team fails to show up, the opponents automatically get a walk ove",
+      "Team size: 5+2 ( 5 Main players, 2 Substitutes )",
+      "If the team fails to show up, the opponents automatically get a walk over",
     ],
     pics: {
       primary:
@@ -359,7 +538,7 @@ export default [
       ],
     },
     contact: "8778799141",
-    dateTime: "10th march,8.00 pm",
+    dateTime: "March 10, 11, 8.00 pm",
     prizes: {
       gold: "2250",
       silver: "1250",
@@ -378,7 +557,7 @@ export default [
     carddescription:"Rise to the challenge and take on the competition in a high-stakes battle for supremacy",
     description:
       "Rise to the challenge and take on the competition in a high-stakes battle for supremacy. The ultimate test of skill and strategy awaits in the epic Valorant tournament.",
-    form: "https://forms.gle/z7reWTPgrbLptSc38",
+    form: "",
     type: "flagship",
     faq: [],
     speakers: [],
@@ -386,19 +565,17 @@ export default [
   },
   {
     id: "8",
-    name: "Art_Emotion",
-    title: "Art and Emotion",
+    name: "Arts_N_Emotion",
+    title: "Arts N Emotion",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "All kind of artistic styles are welcomed(eg:Pencil sketch, water colour, doodle art, oil painting, etc).",
-      "Your drawings will be posted on our Instagram page.",
-      "Plagiarism is strictly prohibited🚫.",
+      "Theme : Open theme",
+      "All kind of artistic styles are welcomed (eg: Pencil sketch, water colour, doodle art, oil painting, etc).",
+      "Plagiarism is strictly prohibited.",
       "Maximum number of enteries per person is 3.",
-      "Winners and runners will be selected based the number of likes(30%) and jury decision(70%).",
-      "THEME:Open theme🤍",
-      "DEADLINE:6/3/2023",
+      "Winners and runners will be selected based the number of likes(40%) and jury decision(60%).",
     ],
     pics: {
       primary:
@@ -411,7 +588,7 @@ export default [
       ],
     },
     contact: "9894162098",
-    dateTime: "6th march",
+    dateTime: "Until March 9",
     prizes: {
       gold: "200",
     },
@@ -453,16 +630,11 @@ export default [
     completed: false,
     results: null,
     rules: [
-      "Mode: Online",
-      "Only recent photos should be submitted",
-      "Group photos are not permitte",
-      "Photos are posted in Cryptera's official Instagram handle (@cryptera_2k23)",
-      "Evaluation is 50% based on likes and 50% based on the decision of panel members",
-      "Winners will be awarded with cash prizes",
-      "No registeration fee",
-      "Vulgarity in any form will lead to disqualification",
-      "Clarity of your picture must be ensured",
-      "Winners and runners will be selected based on the number of likes(30%) and jury decision (70%)",
+      "Only recent photos should be submitted.",
+      "Group photos are not permitted.",
+      "Evaluation is 50% based on likes and 50% based on the decision of panel members.",
+      "Vulgarity in any form will lead to disqualification.",
+      "Clarity of your picture must be ensured.",
     ],
     pics: {
       primary:
@@ -474,25 +646,25 @@ export default [
         "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       ],
     },
-    contact: "6382015599",
-    dateTime: "10th march - 11th march",
+    contact: "9962623236",
+    dateTime: "Until March 9",
     prizes: {
       gold: "200",
     },
     event_managers: [
       {
         id: "1",
-        name: "Keerthana R ",
-        email: "keerthanark022@gmail.com",
-        phone: "6382015599",
+        name: "Manojkumar G",
+        email: "20cs31@cit.edu.in",
+        phone: "+91 9962623236",
         role: "Event Manager",
         year: "3rd year CSE",
       },
     ],
     color: "var(--fg-g)",
-    carddescription:"Modelling is about capturing the essence, personality and identity",
+    carddescription:"Experience the art of fashion come to life, in motion",
     description:
-      "Modelling is about capturing the essence, personality, identity and attitude of a person utilizing backgrounds, lighting and posing. Solo participation ,Free registration , Online event ,Decent photos must be uploaded ",
+      "Welcome to our virtual modeling event on Instagram! Showcase your style and celebrate creativity. Submit your photos and join us for an inspiring and unforgettable session.",
     form: "https://forms.gle/5yLkuCzTRHFAfk9K6",
     type: "non_technical",
     faq: [
@@ -516,19 +688,17 @@ export default [
   },
   {
     id: "10",
-    name: "Spill_some_Ink",
-    title: "Spill some Ink",
+    name: "Spill_Some_Ink",
+    title: "Spill Some Ink",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "Creative ideas are welcome",
-      "Languages allowed: Tamil, English",
-      "Clearly attach your documents(word/pdf) in the shared Google form",
-      "Maximum 1 page allowed ( front and back)",
-      "Any good theme is appreciated",
-      "Plagiarism is not encouraged",
-      "Solo participation",
+      "Solo Participation",
+      "Languages allowed : Tamil, English",
+      "Upload your file in jpg/jpeg format",
+      "Clearly attach your  in the shared Google form",
+      "Plagiarism is strictly prohibited",
     ],
     pics: {
       primary:
@@ -541,7 +711,7 @@ export default [
       ],
     },
     contact: "6384300744",
-    dateTime: "10th march - 11th march",
+    dateTime: "Until March 9",
     prizes: {
       gold: "200",
     },
@@ -558,7 +728,7 @@ export default [
     color: "var(--fg-g)",
     carddescription:"Where Words Flow and Creativity Takes Shape",
     description:
-      "Where Words Flow and Creativity Takes Shape! Unleash your inner wordsmith at Spill Some Ink! Join us for a night of writing, inspiration, and community as we come together to share our stories and explore the power of the written word. Whether you're a seasoned writer or just starting out, this event is the perfect opportunity to let your creativity run wild and connect with like-minded individuals. So grab your pen and join us for a night of literary magic!",
+      "Where Words Flow and Creativity Takes Shape! Unleash your inner wordsmith at Spill Some Ink! Join us for a night of writing, inspiration, and community as we come together to share our stories and explore the power of the written word.",
     form: "https://forms.gle/XARxtZro6VQarX8T8",
     type: "non_technical",
     faq: [
@@ -586,15 +756,8 @@ export default [
     completed: false,
     results: null,
     rules: [
-      "Merchandise will be given for Winners",
-
-      "This event comes under the non-technical event category and it will be conducted in offline mode.",
 
       "The questions will be based on the cinematic and comic of both MARVEL and DC Universes.",
-
-      "A total of 2 to 3 rounds will be conducted such as trivia, lightning rounds etc.",
-
-      "The questions must be answered within the given time limit.",
 
       "Marks for each questions might vary based on the difficulty of the questions (Easy/Medium/Hard).",
 
@@ -615,7 +778,7 @@ export default [
       ],
     },
     contact: "9677214638",
-    dateTime: "10th march ,12:00 pm",
+    dateTime: "March 11, 11.00 am",
     prizes: {
       gold: "300",
     },
@@ -624,7 +787,7 @@ export default [
         id: "1",
         name: "Venkat M",
         email: "venkatm0980@gmail.com",
-        phone: "9677214638",
+        phone: "+91 9677214638",
         role: "Event Manager",
         year: "3rd year CSE",
       },
@@ -656,12 +819,8 @@ export default [
     completed: false,
     results: null,
     rules: [
-      "It is a solo event.",
-      "Each contender must arrive on time.",
+      "Solo Participation",
       "Only english should be used",
-      "The top three competitors will get awards.",
-      "Each round's shortlisted contestants will be able to advance to the following round.",
-      "Each contestant will draw the chit when the previous contestant starts pitching.",
       "Each contestant will have exactly 1 minute to perpare for the pitch.",
     ],
     pics: {
@@ -675,7 +834,7 @@ export default [
       ],
     },
     contact: "9677379380",
-    dateTime: "10th march ,5:00 pm",
+    dateTime: "March 10, 11",
     prizes: {
       gold: "650",
       silver: "350",
@@ -693,7 +852,7 @@ export default [
     color: "var(--fg-g)",
     carddescription:"showcase your pitching skills",
     description:
-      "Sales talk is an execellent opertunity to showcase your pitching skills.The contest consists of two rounds,10 contestents will advance to the second and final round.",
+      "Sales talk is an execellent opertunity to showcase your pitching skills.",
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
     type: "non_technical",
 
@@ -709,16 +868,14 @@ export default [
   },
   {
     id: "13",
-    name: "Typer_Racer",
-    title: "Typer Racer",
+    name: "Type_Racer",
+    title: "Type Racer",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-      "Round 1",
-      "Top contestants who have best WPM in average over 5 racing rounds will be qualified for round 2.",
-      "Round 2",
-      "To determine the winner , the personal highest WPM achieved by each contestant accross 2 racing rounds will be compared and the contestant with the highest WPM will be declared as winner.",
+      "Round 1 : Top contestants who have best WPM in average over 5 racing rounds will be qualified for round 2.",
+      "Round 2 : To determine the winner , the personal highest WPM achieved by each contestant accross 2 racing rounds will be compared and the contestant with the highest WPM will be declared as winner.",
     ],
     pics: {
       primary:
@@ -731,7 +888,7 @@ export default [
       ],
     },
     contact: "9789676878",
-    dateTime: "10th march - 11th march",
+    dateTime: "March 11, 9.00 am",
     prizes: {
       gold: "500",
     },
@@ -746,9 +903,9 @@ export default [
       },
     ],
     color: "var(--fg-g)",
-    carddescription:"Put your typing skills to the test",
+    carddescription:"Join us for an adrenaline-fueled competition that will have your fingers flying across the keyboard!",
     description:
-      "Put your typing skills to the test and take on the ultimate type racer challenge. Join us for an adrenaline-fueled competition that will have your fingers flying across the keyboard!",
+      "Put your typing skills to the test and take on the ultimate type racer challenge.",
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
     type: "non_technical",
     faq: [
@@ -785,38 +942,25 @@ export default [
     completed: false,
     results: null,
     rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
         "Team should have exactly 2 members",
-        "Every team should be on time",
-        "Top two teams will be issued prizes",
         "Shortlisted teams from each round will be eligible for next round.",
-        `(Duration:30 minutes)
-         Round1: TECH QUIZ
-            Quiz consist of 30 questions.
-            All the questions are compulsory to attend.
-            Time limit differs for each question.
+        
+        `Round 1 : TECH QUIZ
             Questions are based on Data Structures and Algorithm , C Programming , SQL , Computer Networks , Operating System`,
-        `(Duration:30 minutes)Round2: CODE SHARING
-            Code sharing consist of 2 coding problems.
-            One easy and one medium level questions will be given.
+        `Round 2 : CODE SHARING
             Each member of a team will be given one of the two question and both should solve simultaneously.
             After 15 minutes, 
                     If one of the teammate have completed his problem. Then he will be given two 
                     options,(1) Either replace his teammate to solve the teammate's question or (2) Wait for his teammate to complete
                     If none of them have completed, swapping is not possible.
-            Qualification of the team to next round depends on how fast the team completes this round.
             Discussion among team members is not permitted.`,
             
-    `Round3:	RAPID FIRE
-    
-        The qualified teams will be facing each other.
+    `Round 3 :	RAPID FIRE
         For each battle,
             1.One from each team will represent the team for each question.
             2.After completion of each question the swapping of team members will happen.
             3.The questions will be displayed simultaneously for both teams.
             4.The one who rings the buzzer first gets to answer.
-            5.Answers with a higher priority are awarded more.
         Each battle is knockout stage."
     `,
     ],
@@ -824,7 +968,7 @@ export default [
         primary: "https://www.billboard.com/wp-content/uploads/2022/07/salt-n-pepa-celebrity-family-feud-2022-billboard-1548.png",
         secondary: []
     },
-    dateTime: "Mar 11th, 2023 4.30pm",
+    dateTime: "March 10, 11, 2.30 pm",
     duration:  "",
     prizes: {
       gold: "1500",
@@ -872,25 +1016,22 @@ export default [
 },
 {
     id: '2',
-    name: "BlindCode",
+    name: "Blind_Code",
     title: "Blind Code",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
-        "Team should have exactly 1 members",
-        "You can use any programming language of given choice(C ,C++, Java, Python)",
-        `Two Rounds : Round 1 - Code in blind screen
-                      Round 2 - Code with blindfold`,
-        "Plagiarism will not be accepted.",
+        "Solo Participation",
+        "You can use any programming language of given choice (C, C++, Java, Python)",
+        "Round 1 - Code in blind screen",
+        "Round 2 - Code with blindfold",
     ],
     pics: {
         primary: "https://coe.sveri.ac.in/olympus/2017/images/cse/blindC.jpg",
         secondary: []
     },
-    dateTime: "Mar 10th, 2023 12.45pm",
+    dateTime: "March 10, 3.00 pm",
     duration:  "",
     prizes: {
       gold: "1000",
@@ -944,105 +1085,26 @@ export default [
     ]
 },
 
-{        
-id: '3',
-name: "CTF",
-title: "Capture The Flag",
-eligibility: "Anyone can join",
-completed: false,
-results: null,
-rules: [
-    "E-certificate will be given",
-    "Certificate will be given for the registered candidates",
-    "Ask us on Discord if you are unsure about any rules or have any questions.",
-    "The competition runs from ... IST — ... IST ( 6 hours)",
-    "In order to claim prizes, problem writeups are required.",
-    "Time will act as a tie-breaker between teams with the same number of points.",
-    "Flags format is CRYPCTF{flag+here}, unless otherwise specified.",
-    "You can't play on two teams at once. Team size limit is 5 per team.",
-    "Being caught cheating during a game is grounds for an instant disqualification.",
-    "If you think you have a valid flag that the system rejects, please contact us.",
-    "Organizers reserve rights to make decisions which are final.",
-    "Let's all have fun and play together!"
-],
-pics: {
-    primary: "https://www.simplilearn.com/ice9/free_resources_article_thumb/top_5_valuable_ethical_hacking_tools.jpg",
-    secondary: []
-},
-dateTime: "Mar 10th, 2023 08.30 am",
-duration:  "",
-prizes: {
-  gold: "3000",
-  silver: "2000",
-},
-contact:  "9442523172",
-speakers: null,
-event_managers: [
-    {
-        id: '1',
-        name: "M Gowtham",
-        email: "mgowtham2543@gmail.com",
-        phone: "+91 9442523172",
-        role: "Event Manager",
-        year: "3rd year CSE",
-
-    }
-],
-color: 'var(--fg-g)',
-carddescription: "A Jeopardy-style CTF",
-description: `A Jeopardy-style CTF`,
-form: "https://forms.gle/2fdCX8oDYd5oWbBC9",
-type: "flagship",
-faq: [
-    {
-        question: "Will it happen online or offline?",
-        answer: "Offline",
-    },
-    {
-        question: "Can I get certificate?",
-        answer: "Yes,certificate will be provided",
-    },
-    {
-        question: "What type of CTF event is this",
-        answer: "Its a jeopardy style event.",
-
-    },
-    {
-        question: "Is there is a team size limit",
-        answer: "Yes. Maximum team size is 5.",
-
-    }
-
-],
-tags: [
-     "Problem Solving", "C", "C++", "Python"
-]
-},
-
 
 {        
 id: '4',
-name: "Jumbled_code",
-title: "Jumbled code",
+name: "Jumbled_Code",
+title: "Jumbled Code",
 eligibility: "Anyone can join",
 completed: false,
 results: null,
 rules: [
-    "E-certificate will be given",
-    "Certificate will be given for the registered candidates",
-    "This is basically a quiz.",
-    "The code in a jumbled manner and the corresponding output will be provided to the participants.",
+    "The code will be in a jumbled manner and the corresponding output will be provided to the participants.",
     "You will be provided with 4 choices and choose the correct sequence so that it will execute correctly.",
-    "There will be totally 25 questions and the time for each question is 45seconds.",
-    "Make sure you have an account in quizizz.",
-    "Participants should appear at least 10 mins before the commencement of the event.",
+    "There will be totally 25 questions and the time for each question is 45 seconds.",
+    "Make sure you have an account in quizizz. If not create one",
     "Plagiarism and any kind of cheating is strictly prohibited.",
 ],
 pics: {
     primary: "https://english.olympiadsuccess.com/assets/images/english_square/english_topic_50.jpg",
     secondary: []
 },
-dateTime: "Mar 11th, 2023 01.00 pm",
+dateTime: "March 10, 10.00 am",
 duration:  "",
 prizes: {
   gold: "1000",
@@ -1074,12 +1136,8 @@ faq: [
         answer: "Offline",
     },
     {
-        question: "Can I get certificate?",
-        answer: "Yes,certificate will be provided",
-    },
-    {
         question: "What programming language the jumbled code will be?",
-        answer: "It will be in C language.",
+        answer: "It will be in python.",
 
     },
     {
@@ -1092,25 +1150,9 @@ faq: [
         answer: "It's based on time and the number of questions you answer correctly.",
 
     },
-    {
-        question: "When will the result be announced ?",
-        answer: "It will be announced at the end of the round.",
-
-    },
-    {
-        question: "What is the prerequisites for this event?",
-        answer: "Just basics of C language.",
-
-    },
-    {
-        question: "What is the eligibility criteria for this event?",
-        answer: "Everyone are welcomed.",
-
-    }
-
 ],
 tags: [
-     "Problem Solving", "C", "C++", "Python"
+     "Problem Solving", "Python"
 ]
 },
 {
@@ -1122,7 +1164,7 @@ tags: [
     results: null,
     rules: [
         "Selfies and portraits are not allowed.",
-        " Photo uploading formats(.jpg or .png)"
+        "Photo uploading formats(.jpg or .png)"
     ],
     entry: [
     ],
@@ -1130,7 +1172,7 @@ tags: [
         primary: "https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?crop=4:3",
         secondary: []
     },
-    dateTime:"",
+    dateTime:"Until March 9",
     duration: "",
     prizes: {
       gold: "200",
@@ -1174,7 +1216,7 @@ pics: {
     primary: "https://s3images.coroflot.com/user_files/individual_files/large_1020744_aontiqjc9mm3_aggdhrcsmvnh.png",
     secondary: []
 },
-dateTime: "Mar 11th, 2023 12.00 pm",
+dateTime: "March 10, 11.00 am",
 duration:  "",
 prizes: {
   gold: "1000",
@@ -1196,7 +1238,7 @@ event_managers: [
 color: 'var(--fg-g)',
 carddescription: "Good Design, when done well, should be invisible",
 description: `Good Design, when done well, should be invisible - Jared Spool In today's age of screens and keyboards, we spend more time staring at screens than anything else. A well designed UI has become a basic requirement to attract users and generate interaction. This is an opportunity to showcase your UI design skills by designing a UI for a specific problem statement.`,
-form: "https://forms.gle/UEs156aVnrPBmu7E6",
+form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
 type: "technical",
 faq: [
     {
@@ -1219,32 +1261,26 @@ faq: [
     },
 ],
 tags: [
-    "design","figma"
+    "UI/UX", "Design", "Figma"
 ]
 },
 
 {        
     id: '7',
-    name: "MissingCode",
+    name: "Missing_Code",
     title: "Missing Code",
     eligibility: "Anyone can join",
     completed: false,
     results: null,
     rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
-        "Basic knowledge of programming languages.",
-        "You can bring your laptop if you want.",
+        "Participants can bring their own laptops.",
         "Plagiarism and any kind of cheating is strictly prohibited.",
-        `MCQ type questions
-        Total number of questions:30
-        Timing : 30 mins`
     ],
     pics: {
         primary: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/chris-ried-ieic5Tq8YMk-unsplas_1200x768.jpeg?size=690:388",
         secondary: []
     },
-    dateTime: "Mar 10th, 2023 03.30 pm",
+    dateTime: "March 11, 2.00 pm",
     duration:  "",
     prizes: {
       gold: "1000",
@@ -1302,103 +1338,26 @@ tags: [
     ]
 },
 
-{        
-    id: '8',
-    name: "Paper_Presentation",
-    title: "Paper Presentation",
-    eligibility: "Anyone can join",
-    completed: false,
-    results: null,
-    rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
-        "Participation can either be an individual participant or as a team of maximum 4.",
-        "Oral presentation for the conference has been allocated 10 minutes of effective presentation time and 2-3 minutes given to Q/A session. Time  limit must not be exceeded.",
-        "Abstract should not exceed more than 300 words. Paper should not exceed more than 20 pages.",
-        `A Google drive link shall be sent to the participants. Kindly upload your paper, ppt and abstract in the same.`,
-        `Paper should be in IEEE format. Avoid using animations and videos in the ppt.`,
-        `All the documents must use Times New Roman format.`,
-        `Soft copies of the paper must be submitted in the .doc/.pdf format.`,
-        `In case of queries regarding the event, kindly contact this number through WhatsApp : 9344140391`,
-    ],
-    pics: {
-        primary: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_505595136_20001333200092800_406810.jpg",
-        secondary: []
-    },
-    dateTime: "Mar 11th, 2023 09.30 am",
-    duration:  "",
-    prizes: {
-      gold: "1500",
-      silver: "1000",
-    },
-    contact:  "9344140391",
-    speakers: null,
-    event_managers: [
-        {
-            id: '1',
-            name: "Siddharth",
-            email: "20cs11@cit.edu.in",
-            phone: "+91 9344140391",
-            role: "Event Manager",
-            year: "3rd year CSE",
-        }
-    ],
-    color: 'var(--fg-g)',
-    carddescription: "Are you ready to showcase your ideas on the big stage?",
-    description: `Are you ready to showcase your ideas on the big stage? Join us to get an exclusive platform to bring out your unique ideas and insights into cutting edge topics in the field of tech. Oh wait, these ideas should be original by the way !`,
-    form: "https://forms.gle/XQ1rYXZcbLWVaRBW8",
-    type: "flagship",
-    faq: [
-        {
-            question: "Will it happen online or offline?",
-            answer: "Offline",
-        },
-        {
-            question: "Can I get certificate?",
-            answer: "Yes,certificate will be provided",
-        },
-        {
-            question: "Should I bring my own laptop?",
-            answer: "No, it isn't necessary since we will provide all necessary devices. ",
-
-        },
-        {
-            question: "What is the maximum team size?",
-            answer: "The maximum team size is 4.",
-
-        },  
-        {
-            question: "What are the topics I can present on ?",
-            answer: "Participants can choose any topic of your choice related to the fields we've mentioned. Check out the registration form for the list of fields. ",
-
-        },      
-    ],
-    tags: [
-        "presentation"
-    ]
-},
 
 {        
     id: '9',
     name: "PC_Building",
     title: "PC Building",
-    eligibility: "Anyone can join",
+    eligibility: "College Students",
     completed: false,
     results: null,
     rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
         "A shelf with all the required PC parts will be provided, and participants should choose the parts from the shelf.",
         "To encourage participants to choose the correct parts, points will be awarded for accuracy.",
         "Points will be awarded based on how fast participants can build their PC.",
-        `Participants will be required to boot up their PC to demonstrate that it is working correctly. Points should be awarded for successful booting`,
-        `Points should be awarded for accurate fitting of the parts. For example, a RAM stick that is not inserted properly could result in a penalty.`,
+        "Participants will be required to boot up their PC to demonstrate that it is working correctly. Points should be awarded for successful booting.",
+        "Points should be awarded for accurate fitting of the parts. For example, a RAM stick that is not inserted properly could result in a penalty.",
     ],
     pics: {
         primary: "https://staticg.sportskeeda.com/editor/2022/01/5f21e-16433417948778-1920.jpg",
         secondary: []
     },
-    dateTime: "Mar 11th, 2023 11.00 am",
+    dateTime: "March 10, 2.00 pm",
     duration:  "",
     prizes: {
       gold: "1500",
@@ -1423,12 +1382,8 @@ tags: [
     type: "technical",
     faq: [
         {
-            question: "Will it happen online or offline?",
+            question: "Will it happen in online or offline?",
             answer: "Offline",
-        },
-        {
-            question: "Can I get certificate?",
-            answer: "Yes,certificate will be provided",
         },
         {
             question: "Is it a team event?",
@@ -1455,15 +1410,13 @@ tags: [
     completed: false,
     results: null,
     rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
-        "Team of 2 members",
+        "Each team should consist of 2 members",
     ],
     pics: {
         primary: "https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz",
         secondary: []
     },
-    dateTime: "Mar 10th, 2023 10.45 am",
+    dateTime: "March 11, 10.30 am",
     duration:  "",
     prizes: {
       gold: "1500",
@@ -1525,65 +1478,64 @@ tags: [
             answer: "No",
 
         },  
-        {
-            question: "Is there any cash prize? ",
-            answer: "Yes , Minimum cash pool 1500rs/-",
-
-        },  
     ],
     tags: [
         "Problem Solving", "C", "C++", "Python"
     ]
 },
 
-// {
-//     id: '11',
-//     name: "MovieQuiz",
-//     title: "Movie Quiz",
-//     eligibility: "Anyone can join",
-//     completed: false,
-//     results: null,
-//     rules: [
-//         "Movie quiz with totally three rounds.",
-//         "A team can have maximum of two members.",
-//         "The first two rounds are in online and conducted in kahoot.",
-//         "The third round will be in offline.",
-//         "There will also be elimination after the first two online rounds.",
-//         "Elimination according to the points you score.",
-//         "More u score More u play ✌🏻",
-//         "Knowledge on Tamil Cinema will be required"
-//     ],
-//     entry: [
-//     ],
-//     pics: {
-//         primary: "https://drive.google.com/uc?export=view&id=1_NrSmg8CI68fM0HypDQx9n_lKbLtb_eN",
-//         secondary: []
-//     },
-//     dateTime:"Mar 11th, 2023 03.00 pm",
-//     duration: "",
-//     prizes: "0",
-//     contact: "9962623236",
-//     event_managers:  [
-//                 {
-//                     id: '1',
-//                     name: "Karthick",
-//                     email: "karthicksp20@gmail.com",
-//                     phone: "+91 9150319543",
-//                     role: "Event Manager",
-//                     year: "3rd year CSE",
+{
+    id: '11',
+    name: "Chess",
+    title: "Chess",
+    eligibility: "Anyone can join",
+    completed: false,
+    results: null,
+    rules: [
+        "Matches are conducted in online mode.",
+        `Matches are conducted through the platform “lichess.org”.`,
+        "Timing for each match is 5 minutes.",
+        "Players should have proper internet connection during the match.",
+        "Players are requested to join half an hour prior to the match timing.",
+        "Late entries are not allowed.",
+        "Panel members decision will be final in case of any disputes.",
+        "Cheating or malpractice will lead to immediate disqualification.",
+        "Cash prize will be awarded for the winner and runner."
+    ],
+    entry: [
+    ],
+    pics: {
+        primary: chess,
+        secondary: []
+    },
+    dateTime:"March 10, 6.00 pm",
+    duration: "",
+    prizes: {
+      gold: "500",
+      silver: "200",
+    },
+    contact: "9944977701",
+    event_managers:  [
+                {
+                    id: '1',
+                    name: "Venkatachalam S",
+                    email: "venkatachalamsevugan@gmail.com",
+                    phone: "+91 9944977701",
+                    role: "Event Manager",
+                    year: "3rd year CSE",
         
-//                 }
-//             ],
-//     color: 'var(--fg-g)',
-//     carddescription: "Lights Camera Action.",
-//     description: "Welcome to the Movie Quiz! This event is a fun-filled opportunity to test your knowledge of cinema and compete with your fellow movie buffs.The quiz will consist of several rounds, each with a different theme or focus. The questions will cover a wide range of movie genres, including classic films, modern blockbusters, and everything in between. As the quiz progresses, the questions will become increasingly challenging, so be sure to keep your wits about you and stay focused. You'll need to think fast and answer quickly to stay ahead of the competition.",
-//     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
-//     type: "non_technical",
-//     faq: null,
-//     tags: [
-//          "Fun Event","Movies"
-//     ]
-// },   
+                }
+            ],
+    color: 'var(--fg-g)',
+    carddescription: "Enter the world of strategy and intellect with our exciting chess tournament!",
+    description: "Enter the world of strategy and intellect with our exciting chess tournament!",
+    form: "",
+    type: "flagship",
+    faq: null,
+    tags: [
+         "Fun Event","Chess"
+    ]
+},   
 
 
 {
@@ -1594,15 +1546,9 @@ tags: [
     completed: false,
     results: null,
     rules: [
-        "Merchandise will be given for the winners",
-        "This event comes under the category of general events : Non -Technical Events",
-        "Anyone can participate individually.",
-        "Event is conducted in offline mode",
         "Scoring will be based on difficulty of the question in each round and there will not be any -ve markings",
-        "All participants should  bring Mobile phones with internet connectivity.",
-        "Any kind of plagiarism will lead to immediate disqualification.",
-        "Answer the questions before the time exhausts",
-        "Winner will be decided based on the final score and time of submission."
+        "All participants should bring Mobile phones with internet connectivity.",
+        "Any kind of cheating will lead to immediate disqualification.",
     ],
     entry: [
     ],
@@ -1610,7 +1556,7 @@ tags: [
         primary: "https://as01.epimg.net/meristation_en/imagenes/2022/02/18/news/1645143158_918055_1645145092_noticia_normal.jpg",
         secondary: []
     },
-    dateTime:"Mar 10th, 2023 12.00 pm",
+    dateTime:"March 10, 12.15 pm",
     duration: "",
     prizes: {
       gold: "300",
@@ -1640,24 +1586,10 @@ tags: [
                 {
                     question: "Will it happen online or offline?",
                     answer: "Offline",
-                },
-                {
-                    question: "Can I get certificate?",
-                    answer: "Yes,certificate will be provided",
-                },
-                {
-                    question: "What are the pre-requisites for the event?",
-                    answer: "Watch anime series, read manga, or explore anime-related websites and forums to expand your knowledge.",
-        
-                },
-                {
-                    question: "What are the benefits of taking an anime quiz ?",
-                    answer: "Taking the quiz can help you test your knowledge of anime, learn new facts and trivia, and connect with other anime fans. It can also be a fun and engaging way to spend time with friends and challenge yourself intellectually.",
-        
-                },      
+                },     
     ],
     tags: [
-         "Fun Event","Anime"
+         "Fun Event", "Anime", "Quiz"
     ]
 },   
 
@@ -1669,19 +1601,15 @@ tags: [
     completed: false,
     results: null,
     rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
-        "Anyone can participate individually",
-        "Event is conducted in offline mode",
-        "Scoring will be based originality of the prompt and uniqueness of the image generated",
         "All participants should bring their personal laptops with internet connectivity (Mobile Hotspot).",
-        "Duration: 45 mins"
+        "Scoring will be based originality of the prompt and uniqueness of the image generated",
+        "Any AI tools can be used"
     ],
     pics: {
         primary: "https://www.secondnature.com.au/wp-content/uploads/2019/12/shutterstock_1361250578__1_-1024x576.jpg",
         secondary: []
     },
-    dateTime: "Mar 11th, 2023 03.30 pm",
+    dateTime: "March 11, 9.30 am",
     duration:  "45 mins",
     prizes: {
       gold: "1000",
@@ -1700,8 +1628,8 @@ tags: [
         }
     ],
     color: 'var(--fg-g)',
-    carddescription: "Unleash your creativity with our AI image generation/Game assets contest!",
-    description: `Unleash your creativity with our AI image generation/Game assets contest! Create stunning and images based on our themes. Join the competition and show us your creative skills.`,
+    carddescription: "Unleash your creativity with our AI image generation contest!",
+    description: `Unleash your creativity with our AI image generation contest! Create stunning and images based on our themes. Join the competition and show us your creative skills.`,
     form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
     type: "technical",
     faq: [
@@ -1734,21 +1662,18 @@ tags: [
     completed: false,
     results: null,
     rules: [
-        "E-certificate will be given",
-        "Certificate will be given for the registered candidates",
-        "The input and the corresponding output will be provided to the participants.",
-        "You need to figure out the logic and code it in any programming language.",
-        "Make sure you have a Hackerrank account.",
+        "Solo Participation",
+        "Given the input and output, the logic should be figured out.",
+        "The logic can be implemented can in any languages.",
+        "Make sure you have a Hackerrank account. If not create one before the contest.",
         "Participants can bring their own laptops.",
-        "Participants should appear atleast 10 mins before the commencement of the event.",
         "Plagiarism and any kind of cheating is strictly prohibited.",
-        "Participation : Individual"
     ],
     pics: {
         primary: "https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg",
         secondary: []
     },
-    dateTime: "Mar 11th, 2023 11.30 am",
+    dateTime: "March 10, 12.15 pm",
     duration:  "",
     prizes: {
       gold: "1250",
@@ -1779,12 +1704,12 @@ tags: [
             answer: "Offline",
         },
         {
-            question: "Can I get certificate?",
-            answer: "Yes,certificate will be provided",
+            question: "Will I get a certificate?",
+            answer: "Yes, E-certificate will be provided",
         },
         {
             question: "What programming languages can be used?",
-            answer: "C,C++,Java and Python is preferred.",
+            answer: "C, C++, Java and Python is preferred.",
 
         },
         {
@@ -1793,20 +1718,17 @@ tags: [
 
         },
         {
-            question: "What is the duration of this event?",
-            answer: "Duration is 1 hour to 1 hour 30 minutes.",
-
-        },
-        {
             question: "Can we participate in team?",
-            answer: "Individual participation is only allowed. ",
+            answer: "Only individual participation is allowed.",
 
         },
     ],
     tags: [
-         "Problem Solving", "C", "C++", "Python","Java"
+         "Problem Solving", "C", "C++", "Python", "Java"
     ]
 },
+
+
 
 
 ]

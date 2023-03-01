@@ -152,29 +152,30 @@ function Navmobile() {
               ref={aboutref}
               id="about_us"
               className="navbar-linkx"
+              onClick={toggleMenu}
             >
               <i className="fa fa-info-circle"></i>
               <span>About us</span>
             </Link>
-            <Link to="events" ref={eventref} className=" navbar-linkx">
+            <Link to="events" ref={eventref} className=" navbar-linkx" onClick={toggleMenu}>
               {" "}
               <i className="fa fa-calendar-minus"></i>
               <span>Events</span>
             </Link>
-            <Link to="timeline" ref={timelineref} className=" navbar-linkx">
+            <Link to="timeline" ref={timelineref} className=" navbar-linkx" onClick={toggleMenu}>
               {" "}
               <i className="fa fa-calendar-check"></i>
               <span>Timeline</span>
             </Link>
-            <Link to="web_devs" ref={webref} className="navbar-linkx">
+            <Link to="web_devs" ref={webref} className="navbar-linkx" onClick={toggleMenu}>
               <i className="fa fa-wifi"></i>
               <span>Web devs</span>
             </Link>
-            <Link to="commitee" ref={commiteeref} className=" navbar-linkx">
+            <Link to="commitee" ref={commiteeref} className=" navbar-linkx" onClick={toggleMenu}>
               <i className="fa fa-users"></i>
               <span>Commitee</span>
             </Link>
-            <Link to="contact_us" ref={contactref} className=" navbar-linkx">
+            <Link to="contact_us" ref={contactref} className=" navbar-linkx" onClick={toggleMenu}>
               <i className="fa fa-headset"></i>
               <span>Contact Us</span>
             </Link>

@@ -112,14 +112,18 @@ export default [
       },
     ],
     color: "var(--fg-g)",
-    carddescription: "A Jeopardy style CTF",
-    description: `A Jeopardy style CTF`,
+    carddescription: "A Jeopardy-style CTF",
+    description: `A Jeopardy-style CTF`,
     form: "https://forms.gle/2fdCX8oDYd5oWbBC9",
     type: "flagship",
     faq: [
       {
         question: "Will it happen online or offline?",
         answer: "Online",
+      },
+      {
+        question: "What type of CTF event is this",
+        answer: "Its a jeopardy style event.",
       },
       {
         question: "Is there is a team size limit",
@@ -365,6 +369,12 @@ export default [
       "Moderators will be spectating the match, and any inconvenience should be brought to the Moderators.",
       "The moderator will share the room id and password for every match in the whatsapp group.",
       "Freefire room will be created and the room's name and password will be shared before the match start.",
+      "Game mode : Battle Royale",
+      "Character Skill : Yes",
+      "Limited Ammo : Yes",
+      "Fall Damage : Yes",
+      "Map : Bermuda Map",
+      "Revival System : No",
     ],
     pics: {
       primary:
@@ -397,7 +407,7 @@ export default [
       "Get ready to battle it out and be the last one standing in the ultimate Free Fire showdown!",
     description:
       "Join the hottest battleground with Free Fire! Experience heart-pumping action and be the last one standing.",
-    form: "https://forms.gle/AqLr3LBNs227UNmq6",
+    form: "",
     type: "flagship",
     faq: [
       {
@@ -1319,7 +1329,7 @@ Jumble the code and triumphal your day.`,
         answer: "Python,C,C++,Java",
       },
     ],
-    tags: ["Problem Solving", "C", "C++", "Python", "Java"],
+    tags: ["Problem Solving", "C", "C++", "Python"],
   },
 
   {

@@ -8,7 +8,7 @@ export default [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
     },
     {
-        name: "Manoj Kumar",
+        name: "Manoj Kumar G",
         position: "Secretary",
         year: "Third year",
         x: "CSE",
@@ -25,7 +25,7 @@ export default [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
     },
     {
-        name: "Sarvesh Kumar",
+        name: "Sarvesh Kumar K",
         position: "Joint Secretary",
         year: "Third year",
         x: "CSE",
@@ -33,7 +33,7 @@ export default [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
     },
     {
-        name: "Nithin R",
+        name: "Karupaiya chu",
         position: "Joint Secretary",
         year: "Third year",
         x: "CSE",
@@ -57,7 +57,7 @@ export default [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
     },
     {
-        name: 'Karupaiya chu',
+        name: 'Arvind V',
         position: 'Design Head',
         year: 'Third year',
         x: 'CSE',
@@ -78,7 +78,7 @@ export default [
         profile: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png'
     },
     {
-        name: 'Dharanish',
+        name: 'Dharanish P M',
         position: 'Campaign Head',
         year: 'Third year',
         x: 'CSE',

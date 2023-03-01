@@ -335,7 +335,7 @@ function Eventdetails() {
                   <div className="final-btn">
                     <div className="submit-btn-event">
                       <div>
-                        {Event_data.s ? <>Open contest</> : <>Comming soon</>}
+                        {Event_data.s ? <>Open contest</> : <>Coming soon</>}
                       </div>
                     </div>
                   </div>

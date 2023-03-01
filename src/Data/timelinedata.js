@@ -16,7 +16,7 @@ export const events = [
     date: "March 10",
   },
   {
-    title: "UI/UX design",
+    title: "UI design contest",
     time: "11:00 AM",
     date: "March 10",
   },
@@ -31,7 +31,7 @@ export const events = [
     date: "March 10",
   },
   {
-    title: "Reverse Code",
+    title: "Reverse Coding",
     time: "12:15 PM",
     date: "March 10",
   },
@@ -71,7 +71,7 @@ export const events = [
     date: "March 10",
   },
   {
-    title: "Type Racing",
+    title: "Type Racer",
     time: "9:00 AM",
     date: "March 11",
   },
@@ -91,7 +91,7 @@ export const events = [
     date: "March 11",
   },
   {
-    title: "Marval vs DC",
+    title: "Marvel/DC",
     time: "11:00 AM",
     date: "March 11",
   },

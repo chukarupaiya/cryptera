@@ -213,6 +213,17 @@ font-family: var(--font-primary);
     font-size: 30px;
 }
 
+.disabled{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7000;
+    background-color: rgba(33, 33, 33, 0.713);
+
+}
+
 @media only screen and (max-width: 900px) {
     .events {
         width: 100%;

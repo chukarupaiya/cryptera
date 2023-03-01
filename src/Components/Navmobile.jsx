@@ -18,9 +18,9 @@ function Navmobile() {
   const linkxref = useRef(null);
   const sociallinksref = useRef(null);
   const clickhandler = () => {
-    sidenavref.current.classList.toggle("activeo");
-    setopen(!open);
-    console.log("hii");
+    // sidenavref.current.classList.toggle("activeo");
+    // setopen(!open);
+    // console.log("hii");
     // if (open) {
     //   linkxref.current.style.display = "none";
     //   sociallinksref.current.style.display = "none";
@@ -35,6 +35,11 @@ function Navmobile() {
     sociallinksref.current.style.display = "block";
     sociallinksref.current.style.overflow = "hidden";
   };
+  const toggleMenu = () => {
+    sidenavref.current.classList.toggle("activeo");
+    setopen(!open);
+
+  }
   const closenav = () => {
     clickhandler();
   };
@@ -54,7 +59,7 @@ function Navmobile() {
 
       homeref.current.classList.add("active");
       hintref.current.innerHTML = "Scroll";
-      hintref.current.addEventListener("click", () => {});
+      hintref.current.addEventListener("click", () => { });
     } else if (location.pathname.includes("/events")) {
       clearActive();
 
@@ -131,7 +136,7 @@ function Navmobile() {
     <>
       <div>
         <div className="sidenav" ref={sidenavref}>
-          <div className="close-btn-x" onClick={closenav}>
+          <div className="close-btn-x" onClick={toggleMenu}>
             <i class="fas fa-times"></i>
           </div>
           <div className="hint" ref={hintref}></div>
@@ -205,7 +210,7 @@ function Navmobile() {
             <img src={Logo} alt="logo" />
           </Link>
         </div>
-        <div onClick={clickhandler} className="close-btn">
+        <div onClick={toggleMenu} className="close-btn">
           Menu
           {/* <i class="fas fa-bars"></i> */}
         </div>

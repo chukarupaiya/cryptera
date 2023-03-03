@@ -470,7 +470,7 @@ export default [
     carddescription: "You must do the thing you think you cannot do",
     description:
       "Hackathon is a national-level 48-hour long intensive, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
-    form: "",
+    form: "https://docs.google.com/forms/d/1fF2cP6ry6b8Xcdmb5tJN3G8eAKIY54sQRZEP0RQBC30/edit",
     type: "flagship",
     faq: [],
     speakers: [],
@@ -635,69 +635,69 @@ export default [
     speakers: [],
     tags: [],
   },
-  {
-    id: "9",
-    name: "Modelling",
-    title: "Modelling",
-    eligibility: "Anyone can join",
-    completed: false,
-    results: null,
-    rules: [
-      "Only recent photos should be submitted.",
-      "Group photos are not permitted.",
-      "Evaluation is 50% based on likes and 50% based on the decision of panel members.",
-      "Vulgarity in any form will lead to disqualification.",
-      "Clarity of your picture must be ensured.",
-    ],
-    pics: {
-      primary: "https://www1.pictures.livingly.com/mp/CzGdtx07MBOx.jpg",
-      secondary: [
-        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-      ],
-    },
-    contact: "9962623236",
-    dateTime: "Until March 9",
-    prizes: {
-      gold: "200",
-    },
-    event_managers: [
-      {
-        id: "1",
-        name: "Manojkumar G",
-        email: "20cs31@cit.edu.in",
-        phone: "+91 9962623236",
-        role: "Event Manager",
-        year: "3rd year CSE",
-      },
-    ],
-    color: "var(--fg-g)",
-    carddescription: "Experience the art of fashion come to life, in motion",
-    description:
-      "Welcome to our virtual modeling event on Instagram! Showcase your style and celebrate creativity. Submit your photos and join us for an inspiring and unforgettable session.",
-    form: "https://forms.gle/5yLkuCzTRHFAfk9K6",
-    type: "non_technical",
-    faq: [
-      {
-        question: "What should be my outfit for the modelling contest ?",
-        answer:
-          "The choice is up to you but I do recommend clothing and outfits without strong design or patterns so as not to detract from the face. The important thing is that children must feel comfortable",
-      },
-      {
-        question: "How much editing do you do?",
-        answer:
-          "Every photograph is individually hand-edited to ensure that they have the best exposure, contrast, tone, etc. I will, where possible, remove any noticeable minor blemishes.",
-      },
-      {
-        question: "In what form the photos should be uploaded?",
-        answer: "jpg",
-      },
-    ],
-    speakers: [],
-    tags: [],
-  },
+  // {
+  //   id: "9",
+  //   name: "Modelling",
+  //   title: "Modelling",
+  //   eligibility: "Anyone can join",
+  //   completed: false,
+  //   results: null,
+  //   rules: [
+  //     "Only recent photos should be submitted.",
+  //     "Group photos are not permitted.",
+  //     "Evaluation is 50% based on likes and 50% based on the decision of panel members.",
+  //     "Vulgarity in any form will lead to disqualification.",
+  //     "Clarity of your picture must be ensured.",
+  //   ],
+  //   pics: {
+  //     primary: "https://www1.pictures.livingly.com/mp/CzGdtx07MBOx.jpg",
+  //     secondary: [
+  //       "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+  //       "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+  //       "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+  //       "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+  //     ],
+  //   },
+  //   contact: "9962623236",
+  //   dateTime: "Until March 9",
+  //   prizes: {
+  //     gold: "200",
+  //   },
+  //   event_managers: [
+  //     {
+  //       id: "1",
+  //       name: "Manojkumar G",
+  //       email: "20cs31@cit.edu.in",
+  //       phone: "+91 9962623236",
+  //       role: "Event Manager",
+  //       year: "3rd year CSE",
+  //     },
+  //   ],
+  //   color: "var(--fg-g)",
+  //   carddescription: "Experience the art of fashion come to life, in motion",
+  //   description:
+  //     "Welcome to our virtual modeling event on Instagram! Showcase your style and celebrate creativity. Submit your photos and join us for an inspiring and unforgettable session.",
+  //   form: "https://forms.gle/5yLkuCzTRHFAfk9K6",
+  //   type: "non_technical",
+  //   faq: [
+  //     {
+  //       question: "What should be my outfit for the modelling contest ?",
+  //       answer:
+  //         "The choice is up to you but I do recommend clothing and outfits without strong design or patterns so as not to detract from the face. The important thing is that children must feel comfortable",
+  //     },
+  //     {
+  //       question: "How much editing do you do?",
+  //       answer:
+  //         "Every photograph is individually hand-edited to ensure that they have the best exposure, contrast, tone, etc. I will, where possible, remove any noticeable minor blemishes.",
+  //     },
+  //     {
+  //       question: "In what form the photos should be uploaded?",
+  //       answer: "jpg",
+  //     },
+  //   ],
+  //   speakers: [],
+  //   tags: [],
+  // },
   {
     id: "10",
     name: "Spill_Some_Ink",
@@ -757,6 +757,55 @@ export default [
         answer: "jpg",
       },
     ],
+    speakers: [],
+    tags: [],
+  },
+  {
+    id: "11",
+    name: "Treasure_Hunt",
+    title: "Treasure Hunt",
+    eligibility: "Anyone can join",
+    completed: false,
+    results: null,
+    rules: [
+      "This event requires teams to have two members each.",
+"Accessing the internet during the event is not allowed, and teams caught doing so will be disqualified.",
+"Interacting or communicating with other teams during the event is not permitted.",
+"Both team members must arrive at the event venue at least 15 minutes before the start time.",
+"The event comprises three rounds: the first round involves locating the map of Ponce de León, the second round requires reaching the youth fountain, and the third round involves finding the Aqua de Vida."
+    ],
+    pics: {
+      primary:
+        "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/07/goonies-treasure-map.jpg",
+      secondary: [
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      ],
+    },
+    contact: "9791771822",
+    dateTime: "March 10th and 11th",
+    prizes: {
+      gold: "2500",
+    },
+    event_managers: [
+      {
+        id: "1",
+        name: "MOHAMMED HISHAM A",
+        email: "20cs78@cit.edu.in",
+        phone: "9791771822",
+        role: "Event Manager",
+        year: "3rd year CSE",
+      },
+    ],
+    color: "var(--fg-g)",
+    carddescription: "Solve the clues and follow the trail, find the treasure that will prevail.",
+    description:
+      "An adventure, a game of the mind, a quest for treasure, that you'll surely find. Follow clues and solve puzzles, step by step, to uncover the prize, that will make you rare.",
+    form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
+    type: "non_technical",
+    faq: [],
     speakers: [],
     tags: [],
   },
@@ -1502,7 +1551,7 @@ Jumble the code and triumphal your day.`,
       "Enter the world of strategy and intellect with our exciting chess tournament!",
     description:
       "Enter the world of strategy and intellect with our exciting chess tournament!",
-    form: "",
+    form: "https://docs.google.com/forms/d/1flqK_jcFnBSwGY0VQUBxr8sMm5IfzrXXQGfLlWMVFCg/edit",
     type: "flagship",
     faq: null,
     tags: ["Fun Event", "Chess"],

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "crypteracit",
+    
     "public": "build",
     "ignore": [
       "firebase.json",

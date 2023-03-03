@@ -24,12 +24,12 @@ import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAB6MUbw1OJO_VXop1O92i_RbUxAMvyazg",
-  authDomain: "cryptera-web.firebaseapp.com",
-  projectId: "cryptera-web",
-  storageBucket: "cryptera-web.appspot.com",
-  messagingSenderId: "548057915197",
-  appId: "1:548057915197:web:4b93397c73a160cdf76f54"
+  apiKey: "AIzaSyCjDtQ-hsyXk876DZLyyeC6UpXMFFjF5EY",
+  authDomain: "cryptera.firebaseapp.com",
+  projectId: "cryptera",
+  storageBucket: "cryptera.appspot.com",
+  messagingSenderId: "797621842156",
+  appId: "1:797621842156:web:d19c64d6002d3bb0b635c9"
 };
 const app = initializeApp(firebaseConfig);
 

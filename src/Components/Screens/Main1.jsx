@@ -30,9 +30,9 @@ function Main({ movetohomepage }) {
       ) {
         h += 3;
        // console.log(h);
-        greenref.current.style.height = h + "px";
-        if (h > 100) {
-          greenref.current.style.height = "0px";
+        // greenref.current.style.height = h + "px";
+        if (h > 20) {
+          // greenref.current.style.height = "0px";
           movetohomepage();
         }
       }

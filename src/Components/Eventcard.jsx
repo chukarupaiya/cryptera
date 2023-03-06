@@ -13,7 +13,7 @@ function Eventcard({ data, primary }) {
 
   return (
     <div className="event-card" style={{ borderTopColor: primary }}>
-      {data.color=="red" && (<div className="disabled"></div>)}
+      {/* {data.color=="red" && (<div className="disabled"></div>)} */}
       <div className="backdrop"></div>
       <div className="backdropImg">
         <img src={data.pics.primary}></img>

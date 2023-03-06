@@ -106,7 +106,7 @@ function Eventdetails() {
                       return (
                         <tr>
                           <td>{data.type} </td>
-                          <td>: RS {data.amt}</td>
+                          {/* <td>: RS {data.amt}</td> */}
                         </tr>
                       );
                     })}
@@ -152,11 +152,18 @@ function Eventdetails() {
                   })}
               </div>
 
-              <div className="final-btn">
-                <a href={Event_data.form} target="_blank">
-                  <div className="submit-btn-event">Register</div>
-                </a>
-              </div>
+              
+              {Event_data.form != "" && (
+                  <div className="final-btn">
+                    <a href={Event_data.form} target="_blank">
+                      <div className="submit-btn-event">
+                        <div>
+                          Register Now
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                )}
             </div>
           </div>
         </div>

@@ -8,6 +8,14 @@ export default [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
     },
     {
+        name: "Ashwanthram K L",
+        position: "Vice President",
+        year: "Third year",
+        x: "CSE",
+        profile:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+    },
+    {
         name: "Manoj Kumar G",
         position: "Secretary",
         year: "Third year",
